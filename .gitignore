@@ -1,4 +1,4 @@
-# compiled class file
+# Compiled class file
 *.class
 
 # Log file
@@ -7,6 +7,7 @@
 # BlueJ files
 *.ctxt
 
+<<<<<<< HEAD
 # .swp files
 *.swp
 *.swp
