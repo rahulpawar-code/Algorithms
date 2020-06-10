@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Algorithms and Data Structures
 
 Contains chapter code and programming exercise solutions to Princeton
