@@ -18,3 +18,10 @@ Stack
 Queue
  [CircularQueue]()
  [LinkedQueue]()
+ [Deque]()
+ [RandomizedQueue]()
+
+Assignment
+ [Percolation]()
+ [Deque]()
+ [RandomizedQueue]()
