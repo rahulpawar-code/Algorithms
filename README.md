@@ -1,27 +1,61 @@
+
 # Algorithms and Data Structures
 
-Contains chapter code and programming exercise solutions to Princeton
-Algorithms Part 1 and Part2 https://www.coursera.org/learn/algorithms-part1/
+1. Contains chapter code and programming exercise solutions to Princeton
+Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/) 
+2. Other general data structures and algorithms
 
 
-# Algorithms and Data structures
+* Union Find
+	 * [Quick Find](generic/union-find/QuickFind.java)
+ 	 * [Quick Union](generic/union-find/QuickUnion.java)
+	 *  [Weighted Quick Union](generic/union-find/WeightedQuickUnion.java)
+	 * [Weighted Quick Union with Path compression](generic/union-find/QuickUnionPathCompression.java)
 
-Union Find
- [Quick Find](QuickFind.java)
- [Quick Union](QuickUnion.java)
- [Weighted Quick Union](WeightedQuickUnion.java)
- [Weighted Quick Union with Path compression](QuickUnionPathCompression.java)
+* Stack
+	* [Dynamic Stack](generic/stack/DynamicStack.java)
+	* [StackOfStrings](generic/stack/StackOfStrings.java)
 
-Stack
- [Dynamic Stack]()
- [StackOfStrings]()
-Queue
- [CircularQueue]()
- [LinkedQueue]()
- [Deque]()
- [RandomizedQueue]()
+* Queue
+	 * [CircularQueue](generic/queue/CircularQueue.java)
+	 * [LinkedQueue](generic/queue/LinkedQueue.java)
+	 * [Deque](assignments/queue/Deque.java)
+	 * [RandomizedQueue](assignments/queue/RandomizedQueue.java)
 
-Assignment
- [Percolation]()
- [Deque]()
- [RandomizedQueue]()
+* Priority Queue / Heap
+	* [Max Queue](generic/priority-queue/MaxQueue.java)
+	* [Min Queue](generic/priority-queue/MinQueue.java "MinQueue.java")
+
+* Sorting
+	* [Insertion sort](generic/sorting/Insertion.java "Insertion.java")
+	* [Selection sort](generic/sorting/Selection.java "Selection.java")
+	* [Shell sort](generic/sorting/Shell.java "Shell.java")
+	* [Merge](generic/sorting/Merge.java "Merge.java")
+	* [Bottom Up Merge](generic/sorting/MergeBU.java "MergeBU.java")
+	* [Quicksort](generic/sorting/Quick.java "Quick.java")
+	* [3-way Quicksort](generic/sorting/Quick3Way.java "Quick3Way.java")
+
+* Symbol table / Search Trees
+	* [Binary Search Tree](generic/symbol-table/BST.java)
+	* [Interval Search Tree](generic/symbol-table/IntervalST.java)
+
+* Others
+	* [Permutation of objects](assignments/queue/Permutation.java)
+	* [kth element, Quick Select](generic/sorting/QuickSelect.java "QuickSelect.java")
+	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")   
+		* [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+	
+* Assignment
+	* [Percolation](assignments/queue)
+	* [Deque](assignments/queue/Deque.java)
+	* [RandomizedQueue](assignments/queue/RandomizedQueue.java)
+	* [8 Puzzle](assignments/8-puzzle/)
+
+* Math
+	* [GaussElimination](others/math/GaussElimination.java "GaussElimination.java") Gauss elimination or Gauss Jordan method to solve system of linear equations
+	* [Point2D.java](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point2D.java "Point2D.java")
+	* [Point3D.java](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java")
+
+* Computational Geometry
+	* Closest pair of points
+	* [Group points which are at distance less than k](others/math/GroupPoint2D.java "GroupPoint2D.java") brute force algorithm
