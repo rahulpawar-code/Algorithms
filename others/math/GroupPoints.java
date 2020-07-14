@@ -2,11 +2,11 @@
  * Problem : https://www.careercup.com/question?id=5999476452360192
  */
 
-public class GroupPoint2D{
+public class GroupPoints{
     UnionFind components;
     Point2D[] points;
 
-    public GroupPoint2D(Point2D[] points) {
+    public GroupPoints(Point2D[] points) {
         components = new UnionFind(points);
         this.points = points;
     }
@@ -15,7 +15,7 @@ public class GroupPoint2D{
         System.out.println("No of groups : " + components.count());
     }
 
-    // Brute force algorithm to group points which are at k
+    // Brute force algorithm to group points which are at distance k
     private void group(double k) {
         if (k < 0) {
             throw new IllegalArgumentException();
@@ -38,7 +38,7 @@ public class GroupPoint2D{
         double max = 100.0;
         Point2D[] points = Point2D.generateRandomPointArray(n, min, max);
 
-        GroupPoint2D group = new GroupPoint2D(points);
+        GroupPoints group = new GroupPoints(points);
 
         // Create groups
         double k = 10.0;

@@ -58,4 +58,5 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Computational Geometry
 	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
-	* [Group points which are at distance less than k](others/math/GroupPoint2D.java "GroupPoint2D.java") brute force algorithm
+	* [Group points which are at distance less than k](others/math/GroupPoints "GroupPoints.java") brute force algorithm
+	* [Group points which are at distance less than k](others/math/GroupPoint2.java "GroupPoint2.java") divide and conquer algorithm
