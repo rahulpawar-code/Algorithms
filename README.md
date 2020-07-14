@@ -2,7 +2,7 @@
 # Algorithms and Data Structures
 
 1. Contains chapter code and programming exercise solutions to Princeton
-Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/) 
+Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 2. Other general data structures and algorithms
 
 
@@ -42,9 +42,9 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 * Others
 	* [Permutation of objects](assignments/queue/Permutation.java)
 	* [kth element, Quick Select](generic/sorting/QuickSelect.java "QuickSelect.java")
-	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")   
+	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")
 		* [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
-	
+
 * Assignment
 	* [Percolation](assignments/queue)
 	* [Deque](assignments/queue/Deque.java)
@@ -57,5 +57,5 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Point3D.java](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java")
 
 * Computational Geometry
-	* Closest pair of points
+	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
 	* [Group points which are at distance less than k](others/math/GroupPoint2D.java "GroupPoint2D.java") brute force algorithm

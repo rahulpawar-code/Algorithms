@@ -8,7 +8,18 @@ public class ClosestPairPoint {
 
     // Brute force method to calculate min distance between two points
     // This method operates on array element from 0..size
-    private static double bruteForce(Point2D[] points, int size, double min) {
+    private static double bruteForce(Point2D[] points, double min) {
+        for (int i = 0; i < points.length; ++i) {
+            for (int j = i + 1; j < points.length; ++j) {
+                min = Math.min(min, points[i].distanceTo(points[j]));
+            }
+        }
+        return min;
+    }
+
+    // Find the distance between the closest points of strip of given size. All points
+    // are sorted according to y coordinates.
+    private static double closestInStrip(Point2D[] points, int size, double min) {
         for (int i = 0; i < size; ++i) {
             for (int j = i + 1; j < size && Math.abs(points[j].y - points[i].y) < min; ++j) {
                 min = Math.min(min, points[i].distanceTo(points[j]));
@@ -20,7 +31,7 @@ public class ClosestPairPoint {
     private static double getClosest(Point2D[] px, Point2D[] py, int n) {
         // Use brute force to get minimum distance for very small array
         if (n <= 3) {
-            return bruteForce(px, px.length, Double.MAX_VALUE);
+            return bruteForce(px, Double.MAX_VALUE);
         }
 
         // middle point
@@ -55,7 +66,7 @@ public class ClosestPairPoint {
         }
 
         // Find and return the closest point in strip
-        return bruteForce(strip, j, min);
+        return closestInStrip(strip, j, min);
     }
 
     public static double getClosest(Point2D[] points) {
@@ -88,7 +99,4 @@ public class ClosestPairPoint {
         double minDistance = ClosestPairPoint.getClosest(points);
         System.out.println(minDistance);
     }
-
 }
-
-
