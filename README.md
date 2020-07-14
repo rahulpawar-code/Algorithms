@@ -8,8 +8,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Union Find
 	 * [Quick Find](generic/union-find/QuickFind.java)
- 	 * [Quick Union](generic/union-find/QuickUnion.java)
-	 *  [Weighted Quick Union](generic/union-find/WeightedQuickUnion.java)
+	 * [Quick Union](generic/union-find/QuickUnion.java)
+	 * [Weighted Quick Union](generic/union-find/WeightedQuickUnion.java)
 	 * [Weighted Quick Union with Path compression](generic/union-find/QuickUnionPathCompression.java)
 
 * Stack
@@ -53,8 +53,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Math
 	* [GaussElimination](others/math/GaussElimination.java "GaussElimination.java") Gauss elimination or Gauss Jordan method to solve system of linear equations
-	* [Point2D.java](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point2D.java "Point2D.java")
-	* [Point3D.java](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java")
+	* [Point2D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point2D.java "Point2D.java") Data structure to represent point in 2D space
+	* [Point3D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java") Data structure to represent point in 3D space
 
 * Computational Geometry
 	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
