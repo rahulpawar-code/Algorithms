@@ -39,7 +39,10 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Binary Search Tree](generic/symbol-table/BST.java)
 	* [Interval Search Tree](generic/symbol-table/IntervalST.java)
 
-* Others
+* Other data structures
+    * [Activity / Task](greedy/Activity.java "Activity.java") representation of an activity or a task
+
+* Other algorithms
 	* [Permutation of objects](assignments/queue/Permutation.java)
 	* [kth element, Quick Select](generic/sorting/QuickSelect.java "QuickSelect.java")
 	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")
