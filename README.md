@@ -48,6 +48,9 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")
 		* [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 
+* Greedy
+    * [Activity Selection](other/greedy/ActivitySelection.java)
+
 * Assignment
 	* [Percolation](assignments/queue)
 	* [Deque](assignments/queue/Deque.java)

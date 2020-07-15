@@ -55,6 +55,28 @@ public class Activity {
         return end;
     }
 
+    // Is this activity overlapping with other
+    // if start of one has same time as end of another,
+    // then acitivites are considered as overlapping
+    public boolean overlappingInclusive(Activity other) {
+        if (other == null) {
+            throw new IllegalArgumentException();
+        }
+
+        return (this.start <= other.end) && (other.start <= this.end);
+    }
+
+    // Is this activity overlapping with other
+    // if start of one has same time as end of another,
+    // then acitivites are considered as non overlapping
+    public boolean overlappingExclusive(Activity other) {
+        if (other == null) {
+            throw new IllegalArgumentException();
+        }
+
+        return (this.start < other.end) && (other.start < this.end);
+    }
+
     // Returns an integer hash code for this object
     @Override
     public int hashCode() {
