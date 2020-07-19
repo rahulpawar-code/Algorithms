@@ -50,6 +50,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Greedy
     * [Activity Selection](other/greedy/ActivitySelection.java)
+    * [Activity Sequencing](other/greedy/ActivitySequencing.java) Naive algorithm
 
 * Assignment
 	* [Percolation](assignments/queue)
