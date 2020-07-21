@@ -39,6 +39,9 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Binary Search Tree](generic/symbol-table/BST.java)
 	* [Interval Search Tree](generic/symbol-table/IntervalST.java)
 
+* String
+    * [Trie](generic/string/Trie.java)
+
 * Other data structures
     * [Activity / Task](greedy/Activity.java "Activity.java") representation of an activity or a task
 
