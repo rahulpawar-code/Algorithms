@@ -56,6 +56,9 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Activity Sequencing](other/greedy/ActivitySequencing.java) Naive algorithm
     * [Activity Sequencing](other/greedy/ActivitySequencing2.java) Using union-find
 
+* String algorithms
+    * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
+
 * Assignment
 	* [Percolation](assignments/queue)
 	* [Deque](assignments/queue/Deque.java)
