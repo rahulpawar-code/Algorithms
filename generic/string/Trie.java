@@ -72,6 +72,45 @@ public class Trie<Value> {
         n++;
     }
 
+    private boolean empty(Node node) {
+        for (int i = 0; i < R; ++i) {
+            if (node.next[i] != null) {
+                return false;
+            }
+        }
+        return true;
+    }
+
+    private Node remove(Node node, String key, int depth) {
+        if (node == null) {
+            return null;
+        }
+        if (depth == key.length()) {
+            if (node.value != null) {
+                n--;
+                node.value = null;
+            }
+        } else {
+            int index = key.charAt(depth) - 'a';
+            node.next[index] = remove(node.next[index], key, depth + 1);
+        }
+        if (node.value != null || !empty(node)) {
+            return node;
+        }
+        return null;
+    }
+
+    public void remove(String key) {
+        if (key == null) {
+            throw new IllegalArgumentException();
+        }
+        if (root == null) {
+            throw new NoSuchElementException();
+        }
+
+        root = remove(root, key, 0);
+    }
+
     public int size() {
         return n;
     }
@@ -82,14 +121,28 @@ public class Trie<Value> {
 
     public static void main(String[] args) {
         String[] keys = {"the", "a", "there", "answer", "any",
-                         "by", "bye", "their"};
+                         "by", "bye", "their", "z"};
 
         Trie<Integer> trie = new Trie<>();
         for (int i = 0; i < keys.length; ++i) {
             trie.insert(keys[i], i);
         }
-        System.out.println("trie size : " + trie.size());
+        System.out.println("== Trie size : " + trie.size());
 
+        for (int i = 0; i < keys.length; ++i) {
+            if (trie.contains(keys[i])) {
+                System.out.println(keys[i] + ": " + trie.search(keys[i]));
+            } else {
+                System.out.println(keys[i] + ": " + null);
+            }
+        }
+
+        String[] remove = {"z", "the", "their"};
+        for (int i = 0; i < remove.length; ++i) {
+            System.out.println("Deleting " + remove[i]);
+            trie.remove(remove[i]);
+        }
+        System.out.println("== Trie size : " + trie.size());
         for (int i = 0; i < keys.length; ++i) {
             if (trie.contains(keys[i])) {
                 System.out.println(keys[i] + ": " + trie.search(keys[i]));
