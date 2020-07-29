@@ -60,7 +60,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
     * [Auto Completion search](others/string/AutoComplete.java) Using trie
     * [English word meaning dictionary](others/string/WordMeaningDictionary.java) Using trie
-    * [Longest Common Prefix](others/string/LongestCommonPrefix.java) using trie
+    * [Longest Common Prefix](others/string/LongestCommonPrefix.java) Using trie
+    * [Pattern Searching](others/string/PatternSearchingTrie.java) Using trie of all suffix
 
 * Assignment
 	* [Percolation](assignments/queue)
