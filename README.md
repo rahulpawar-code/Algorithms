@@ -4,7 +4,7 @@
 1. Contains chapter code and programming exercise solutions to Princeton
 Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 2. Other general data structures and algorithms
-
+3. Explanation & solutions to Google Code Jam programming competitions
 
 * Union Find
 	 * [Quick Find](generic/union-find/QuickFind.java)
@@ -82,3 +82,6 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
 	* [Group points which are at distance less than k](others/math/GroupPoints "GroupPoints.java") brute force algorithm
 	* [Group points which are at distance less than k](others/math/GroupPoint2.java "GroupPoint2.java") divide and conquer algorithm
+
+* Google CodeJam
+    * [Solution to Code Jam problems](googlecodejam/README.md) SavingTheUniverseAgain, TroubleSort, Vestigium, Nesting Depth, Parenting Partnering Returns, Indicium
