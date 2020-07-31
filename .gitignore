@@ -7,7 +7,6 @@
 # BlueJ files
 *.ctxt
 
-<<<<<<< HEAD
 # .swp files
 *.swp
 *.swp
@@ -15,8 +14,6 @@
 
 # TODO file
 *TODO.txt
-*old
-*README.md
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
