@@ -66,6 +66,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Longest Common Prefix](others/string/LongestCommonPrefix.java) Using trie
     * [Pattern Searching](others/string/PatternSearchingTrie.java) Using trie of all suffix
     * [Word Break problem](others/string/WordBreak.java) Using trie, recursive algorithm
+    * [KMP Pattern searching](others/string/KMP.java) Search pattern in text 
 
 * Assignment
 	* [Percolation](assignments/queue)
