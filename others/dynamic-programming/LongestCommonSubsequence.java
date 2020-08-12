@@ -7,6 +7,11 @@ import java.util.HashMap; // For memoization
 import java.util.Map; // For memoization
 
 class LongestCommonSubsequence {
+    private static void validateInputs(String X, String Y) {
+        if (X == null || Y == null) {
+            throw new IllegalArgumentException();
+        }
+    }
 
     // Top Down or Memoization
     private static int LCSTopDown(String x, String y, int m, int n,
@@ -30,18 +35,34 @@ class LongestCommonSubsequence {
     }
 
     public static int LCSTopDown(String X, String Y) {
-        if (X == null || Y == null) {
-            throw new IllegalArgumentException();
-        }
-
-        if (X.length() == 0 || Y.length() == 0) {
-            return 0;
-        }
+        validateInputs(X, Y);
 
         Map<String, Integer> lookup = new HashMap<>();
 
         return LCSTopDown(X, Y, X.length(), Y.length(), lookup);
      }
+
+    // Bottom up iterative solution with lookup table
+    public static int BottomUpLCS(String X, String Y) {
+        validateInputs(X, Y);
+        int m = X.length();
+        int n = Y.length();
+
+        int[][] length = new int[m + 1][n + 1];
+
+        for (int i = 0; i <= m; ++i) {
+            for (int j = 0; j <= n; ++j) {
+                if (i == 0 || j == 0) {
+                    length[i][j] = 0;
+                } else if (X.charAt(i - 1) == Y.charAt(j - 1)) {
+                    length[i][j] = length[i - 1][j - 1] + 1;
+                } else {
+                    length[i][j] = Math.max(length[i - 1][j], length[i][j - 1]);
+                }
+            }
+        }
+        return length[m][n];
+    }
 
     // Naive recursive LCS
     private static int NaiveLCS(String X, String Y, int m, int n) {
@@ -58,14 +79,7 @@ class LongestCommonSubsequence {
 
     // Naive recursive LCS
     public static int NaiveLCS(String X, String Y) {
-        if (X == null || Y == null) {
-            throw new IllegalArgumentException();
-        }
-
-        if (X.length() == 0 || Y.length() == 0) {
-            return 0;
-        }
-
+        validateInputs(X, Y);
         return NaiveLCS(X, Y, X.length(), Y.length());
     }
 
@@ -84,18 +98,19 @@ class LongestCommonSubsequence {
     }
 
     public static void main(String[] args) {
-        int max = 10;
+        int max = 15;
+        int length = 0;
         String X = LongestCommonSubsequence.generateRandomString(max);
         String Y = LongestCommonSubsequence.generateRandomString(max);
-
-        int length = LongestCommonSubsequence.NaiveLCS(X, Y);
-        System.out.println("Using naive recursion, LCS of " + X + " and " + Y + " : " + length);
 
         length = LongestCommonSubsequence.NaiveLCS(X, Y);
         System.out.println("Using naive recursion, LCS of " + X + " and " + Y + " : " + length);
 
         length = LongestCommonSubsequence.LCSTopDown(X, Y);
-        System.out.println("Using naive recursion, LCS of " + X + " and " + Y + " : " + length);
+        System.out.println("Using top down memoization, LCS of " + X + " and " + Y + " : " + length);
+
+        length = LongestCommonSubsequence.BottomUpLCS(X, Y);
+        System.out.println("Using bottom up tabulation, LCS of " + X + " and " + Y + " : " + length);
     }
 }
 
