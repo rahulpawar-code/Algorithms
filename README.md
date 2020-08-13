@@ -58,7 +58,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Dynamic Programming
     * [Word Break problem](others/string/WordBreak.java) recursive algorithm, using trie
-    * [Longest Common Subsequence](others/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation
+    * [Longest Common Subsequence](others/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
