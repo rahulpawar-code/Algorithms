@@ -60,6 +60,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Word Break problem](others/string/WordBreak.java) recursive algorithm, using trie
     * [Longest Common Subsequence](others/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings
     * [Longest Common Substring](others/dynamic-programming/LongestCommonSubstring.java) Recursive, bottom-up, space optimized, print substring
+    * [Longest Common Substring in array](others/dynamic-programming/StemInStringArray.java) Stem in an array of strings
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
