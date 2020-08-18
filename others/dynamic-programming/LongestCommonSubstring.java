@@ -5,7 +5,6 @@
 
 import java.util.Random; // For generating random strings
 
-
 class LCS {
     // Validate 2 input strings
     private static void checkInputs(String X, String Y) {
@@ -40,6 +39,33 @@ class LCS {
         return recursive(X, Y, X.length(), Y.length(), 0);
     }
 
+
+    // Space optimized bottom up version using 2 arrays
+    public static int spaceOptimized(String X, String Y) {
+        checkInputs(X, Y);
+        int m = X.length();
+        int n = Y.length();
+        int[][] table = new int[2][n + 1];
+        int indexSwitch = 0; // odd and even index switch for first dim of table
+        int max = 0;
+
+        for (int i = 0; i <= m; i++) {
+            for (int j = 0; j <= n; ++j) {
+                if (i == 0 || j == 0) {
+                    table[indexSwitch][j] = 0;
+                } else if (X.charAt(i - 1) == Y.charAt(j - 1)) {
+                    table[indexSwitch][j] = 1 + table[1 - indexSwitch][j - 1];
+                    max = Math.max(max, table[indexSwitch][j]);
+                } else {
+                    table[indexSwitch][j] = 0;
+                }
+            }
+            indexSwitch =  1 - indexSwitch;
+        }
+
+        return max;
+    }
+
     // Bottom up method, creating a lookup table
     public static int BottomUp(String X, String Y) {
         checkInputs(X, Y);
@@ -58,6 +84,33 @@ class LCS {
         }
         return max;
     }
+
+    // Print the longest common substring. Logic is similar to bottom up method
+    // Only diff is that now an additional index to row or col number is stored
+    // at which current solution is max
+    public static String printLongestCommonSubstring(String X, String Y) {
+        checkInputs(X, Y);
+        int m = X.length();
+        int n = Y.length();
+        int max = 0;
+        int[][] lookup = new int[m + 1][n + 1];
+        int endIndex = -1;
+
+        for (int i = 1; i <= m; ++i) {
+            for (int j = 1; j <= n; ++j) {
+                if (X.charAt(i - 1) == Y.charAt(j - 1)) {
+                    lookup[i][j] = 1 + lookup[i - 1][j - 1];
+
+                    if (lookup[i][j] > max) {
+                        max = lookup[i][j];
+                        endIndex = i;
+                    }
+                }
+            }
+        }
+
+        return X.substring(endIndex - max, endIndex);
+   }
 }
 
 public class LongestCommonSubstring {
@@ -89,5 +142,8 @@ public class LongestCommonSubstring {
         System.out.println("Longest common substring using bottom up method : " + max);
         max = LCS.recursive(X, Y);
         System.out.println("Longest common substring using recursive method : " + max);
+        max = LCS.spaceOptimized(X, Y);
+        System.out.println("Longest common substring using space optimized method : " + max);
+        System.out.println("Longest common substring : " + LCS.printLongestCommonSubstring(X, Y));
     }
 }
