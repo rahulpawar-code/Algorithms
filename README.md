@@ -92,3 +92,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 * Google CodeJam
     * [Solution to Code Jam problems](googlecodejam/README.md) SavingTheUniverseAgain, TroubleSort, Vestigium, Nesting Depth, Parenting Partnering Returns, Indicium
+
+* Random data
+    * [Random String](others/dynamic-programming/RandomString.java) Random strings
+    * [Random 2D Matrix](others/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
