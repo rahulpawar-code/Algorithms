@@ -64,6 +64,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Longest Common Substring in array](others/dynamic-programming/StemInStringArray.java) Stem in an array of strings
     * Subsequence variants: [Repeated Subsequence](others/dynamic-programming/RepeatedSubsequence.java) top-down, naive recursion, print sequence
     * [Levenshtein distance / Edit Distance](others/dynamic-programming/EditDistance.java)
+    * [Largest sqaure submatrix of 1's](others/dynamic-programming/LargestSquareSubmatrix.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
