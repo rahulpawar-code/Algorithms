@@ -87,6 +87,11 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Point2D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point2D.java "Point2D.java") Data structure to represent point in 2D space
 	* [Point3D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java") Data structure to represent point in 3D space
 
+ * Bit manipulation/ Bitwise hacks
+    * [Basics](others/bitwise/bitwise1.cpp)
+    * [Questions Links 1](https://www.techiedelight.com/Tags/Bit-Hacks/)
+    * [Bit Twiddling Hacks collection](https://graphics.stanford.edu/~seander/bithacks.html)
+
 * Computational Geometry
 	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
 	* [Group points which are at distance less than k](others/math/GroupPoints "GroupPoints.java") brute force algorithm
