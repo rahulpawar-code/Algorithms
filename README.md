@@ -66,7 +66,10 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Levenshtein distance / Edit Distance](others/dynamic-programming/EditDistance.java)
     * [Largest sqaure submatrix of 1's](others/dynamic-programming/LargestSquareSubmatrix.java)
     * [Min cost path from top right to bottom down in matrix](other/dynamic-programming/MatrixMinCost.java)
-    * [Maximum value of expression](other/dynamic-programming/MaxValueOfExpression.java)
+    * [Maximum value of expression](others/dynamic-programming/MaxValueOfExpression.java)
+    * [Subset sum partition](others/dynamic-programming/Partition.java)
+    * [Three Partition](others/dynamic-programming/ThreePartition.java)
+    
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
