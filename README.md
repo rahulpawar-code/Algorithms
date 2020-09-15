@@ -69,7 +69,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Maximum value of expression](others/dynamic-programming/MaxValueOfExpression.java)
     * [Subset sum partition](others/dynamic-programming/Partition.java)
     * [Three Partition](others/dynamic-programming/ThreePartition.java)
-    
+    * [Rod Cutting](others/dynamic-programming/RodCutting.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
