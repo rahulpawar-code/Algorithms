@@ -72,6 +72,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Rod Cutting](others/dynamic-programming/RodCutting.java)
     * [Rod Cutting Product](others/dynamic-programming/RodCuttingProduct.java)
     * [Coin Change](others/dynamic-programming/CoinChange.java)
+    * [Coin Change Ways](others/dynamic-programming/CoinChangeWays.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
