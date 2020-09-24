@@ -77,6 +77,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Word Break](others/dynamic-programming/WordBreak.java)
     * [Word Break using trie](others/dynamic-programming/WordBreakUsingTrie.java)
     * [Array Adjustment cost](others/dynamic-programming/ArrayAdjustmentCost.java)
+    * [No of ways for dice throws](others/dynamic-programming/DiceThrows.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
