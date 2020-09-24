@@ -75,6 +75,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Coin Change Ways](others/dynamic-programming/CoinChangeWays.java)
     * [Binary String with no consecutive 1's](others/dynamic-programming/BinaryStrings.java)
     * [Word Break](others/dynamic-programming/WordBreak.java)
+    * [Word Break using trie](others/dynamic-programming/WordBreakUsingTrie.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
