@@ -55,6 +55,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Activity Selection](other/greedy/ActivitySelection.java)
     * [Activity Sequencing](other/greedy/ActivitySequencing.java) Naive algorithm
     * [Activity Sequencing](other/greedy/ActivitySequencing2.java) Using union-find
+* Arrays
+    * [Continuous ones](others/array/ContinuousOnes.java)
 
 * Dynamic Programming
     * [Word Break problem](others/string/WordBreak.java) recursive algorithm, using trie
