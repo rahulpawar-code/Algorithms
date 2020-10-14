@@ -51,6 +51,10 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")
 		* [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 
+* Linked List
+    * [Linked List](others/linked-list/LinkedList.java)
+    * [Alternating Split](others/linked-list/AlternatingSplit.java)
+
 * Greedy
     * [Activity Selection](other/greedy/ActivitySelection.java)
     * [Activity Sequencing](other/greedy/ActivitySequencing.java) Naive algorithm
@@ -81,6 +85,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Array Adjustment cost](others/dynamic-programming/ArrayAdjustmentCost.java)
     * [No of ways for dice throws](others/dynamic-programming/DiceThrows.java)
     * [Wildcard Matching](others/dynamic-programming/WildcardMatching.java)
+    * [Tripping Rain Water](others/array/TrappingRainWater.java)
 
 * String algorithms
     * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
