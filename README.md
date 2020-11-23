@@ -64,6 +64,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
     * [Activity Sequencing](other/greedy/ActivitySequencing2.java) Using union-find
 * Arrays
     * [Continuous ones](others/array/ContinuousOnes.java)
+    * [Infections over a distance](others/array/Contamination.java)
 
 * Dynamic Programming
     * [Word Break problem](others/string/WordBreak.java) recursive algorithm, using trie
