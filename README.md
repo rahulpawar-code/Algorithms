@@ -1,6 +1,14 @@
 
 # Algorithms and Data Structures
 
+| Problem | Java  | C++|
+|:--|--:|--:|
+| Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | leetcode/ReverseString.java | leetcode/ReverseString.cpp |
+| Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | leetcode/ReverseInteger.java  |
+
+
+
+
 1. Contains chapter code and programming exercise solutions to Princeton
 Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 2. Other general data structures and algorithms
