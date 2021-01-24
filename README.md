@@ -3,8 +3,8 @@
 
 | Problem | Java  | C++|
 |:--|--:|--:|
-| Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | leetcode/ReverseString.java | leetcode/ReverseString.cpp |
-| Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | leetcode/ReverseInteger.java  |
+| Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](leetcode/ReverseString.java) | [ReverseString.cpp](leetcode/ReverseString.cpp) |
+| Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](leetcode/ReverseInteger.cpp)  |
 
 
 
