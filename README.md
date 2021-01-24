@@ -5,9 +5,10 @@
 |:--|--:|--:|
 | Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](leetcode/ReverseString.java) | [ReverseString.cpp](leetcode/ReverseString.cpp) |
 | Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](leetcode/ReverseInteger.cpp)  |
-
-
-
+| First unique character in a string [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | ? | [FirstUniqueCharacter.cpp](leetcode/FirstUniqueCharacter.cpp) |
+| Valid anagram [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882) | ? | [ValidAnagram.cpp](leetcode/ValidAnagram.cpp) |
+| Valid palindrome [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823) | ? | [ValidPalindrome.cpp](leetcode/ValidPalindrome.cpp) |
+| [link]() | ? | []() |
 
 1. Contains chapter code and programming exercise solutions to Princeton
 Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
