@@ -3,12 +3,13 @@
 1. [Keywords To Remember](#keywords-to-remember)
 2. [System Design Questions](#system-design-questions)
 3. [Java Concepts](#java-concepts)
+4. [Algorithm References](#algorithm-references)
 
 # TODO (add)
 C++ Concepts
 
 # System Design Questions
-[Link](System-Design-Questions/README.md)
+Large scale system design and object oriented design questions and topics [Link](System-Design-Questions/README.md)
 
 ## Table of Contents
 1. Keywords To Remember
@@ -18,9 +19,9 @@ C++ Concepts
 5. External References
 
 # Java Concepts
-[Link](Java-Concepts/README.md)
+Short sample programs to demonstrate the inbuilt object oriented concepts in Java language. [Link](Java-Concepts/README.md)
 
-## Table of Contents 
+## Table of Contents
 1. Generics
 2. Equility
 3. String Representation of Object
@@ -32,6 +33,12 @@ C++ Concepts
 9. Comparator
 10. Immutability
 
+
+# Algorithm References
+
+* **Prefix Hash tree** - https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf - Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables
+* **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
+* **Suffix tree** https://en.wikipedia.org/wiki/Suffix_tree Compressed Trie, used in pattern searching, hard algo
 
 # Algorithms and Data Structures
 
