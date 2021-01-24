@@ -1,4 +1,38 @@
 
+# Table of Contents
+1. [Keywords To Remember](#keywords-to-remember)
+2. [System Design Questions](#system-design-questions)
+3. [Java Concepts](#java-concepts)
+
+# TODO (add)
+C++ Concepts
+
+# System Design Questions
+[Link](System-Design-Questions/README.md)
+
+## Table of Contents
+1. Keywords To Remember
+2. Infrastructure Design Questions
+3. System Design Questions
+4. Object Oriented Design Questions
+5. External References
+
+# Java Concepts
+[Link](Java-Concepts/README.md)
+
+## Table of Contents 
+1. Generics
+2. Equility
+3. String Representation of Object
+4. Hash code of Object
+5. Dynamic array
+6. Iterable
+7. Comparable
+8. assert
+9. Comparator
+10. Immutability
+
+
 # Algorithms and Data Structures
 
 | Problem | Java  | C++|
