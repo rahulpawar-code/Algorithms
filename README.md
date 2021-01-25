@@ -1,27 +1,27 @@
 
 # Table of Contents
-1. [Keywords To Remember](#keywords-to-remember)
+1. [Algorithms and Data Structures](#algorithms-and-data-structures)
 2. [System Design Questions](#system-design-questions)
-3. [Java Concepts](#java-concepts)
+3. [Java OOP Concepts](#java-oop-concepts)
 4. [Algorithm References](#algorithm-references)
 
 # TODO (add)
 C++ Concepts
 
-# System Design Questions
-Large scale system design and object oriented design questions and topics [Link](System-Design-Questions/README.md)
+# [System Design Questions](System-Design-Questions/README.md)
+Large scale system design and object oriented design questions and topics
 
-## Table of Contents
+## Topics
 1. Keywords To Remember
 2. Infrastructure Design Questions
 3. System Design Questions
 4. Object Oriented Design Questions
 5. External References
 
-# Java Concepts
-Short sample programs to demonstrate the inbuilt object oriented concepts in Java language. [Link](Java-Concepts/README.md)
+# [Java OOP Concepts](Java-Concepts/README.md)
+Short sample programs to demonstrate the inbuilt object oriented concepts in Java language.
 
-## Table of Contents
+## Topics
 1. Generics
 2. Equility
 3. String Representation of Object
@@ -42,19 +42,34 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 
 # Algorithms and Data Structures
 
-| Problem | Java  | C++|
-|:--|--:|--:|
-| Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](leetcode/ReverseString.java) | [ReverseString.cpp](leetcode/ReverseString.cpp) |
-| Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](leetcode/ReverseInteger.cpp)  |
-| First unique character in a string [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | ? | [FirstUniqueCharacter.cpp](leetcode/FirstUniqueCharacter.cpp) |
-| Valid anagram [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882) | ? | [ValidAnagram.cpp](leetcode/ValidAnagram.cpp) |
-| Valid palindrome [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823) | ? | [ValidPalindrome.cpp](leetcode/ValidPalindrome.cpp) |
-| [link]() | ? | []() |
+1. Algorithms 
+2. [LeetCode](#leetcode) 
+3. [Google CodeJam](#google-codejam)
+
 
 1. Contains chapter code and programming exercise solutions to Princeton
 Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 2. Other general data structures and algorithms
 3. Explanation & solutions to Google Code Jam programming competitions
+
+
+## Leetcode
+| Problem | Java  | C++|
+|:--|--:|--:|
+| Reverse String [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](sites/leetcode/ReverseString.java) | [ReverseString.cpp](sites/leetcode/ReverseString.cpp) |
+| Reverse Integer [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](sites/leetcode/ReverseInteger.cpp)  |
+| First unique character in a string [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | ? | [FirstUniqueCharacter.cpp](sites/leetcode/FirstUniqueCharacter.cpp) |
+| Valid anagram [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882) | ? | [ValidAnagram.cpp](sites/leetcode/ValidAnagram.cpp) |
+| Valid palindrome [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823) | ? | [ValidPalindrome.cpp](sites/leetcode/ValidPalindrome.cpp) |
+| Longest Common Prefix [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/887/) | ? | [Brute Force 1](sites/leetcode/LongestCommonPrefixMethod1.cpp) <br/> [Brute Force 2](sites/leetcode/LongestCommonPrefixMethod2.cpp) <br/> [Using Trie](sites/leetcode/LongestCommonPrefixMethod3.cpp) |
+| [link]() | ? | []() |
+
+## [Google CodeJam](sites/googlecodejam/README.md) 
+1. Google Code Jam 2018
+2. Google Code Jam 2020
+
+## Algorithms 
+
 
 * Union Find
 	 * [Quick Find](generic/union-find/QuickFind.java)
