@@ -67,7 +67,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Linked List| Link | Java  | C++|
 |:--|--:|--:|--:|
 | Delete Node (without previous) | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
-| | [link]()|  ? | []() |
+| Remove Nth from end | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
+| | [link]()| ? | []() |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
 1. Google Code Jam 2018

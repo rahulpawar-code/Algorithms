@@ -1,9 +1,10 @@
 // https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/
+// https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/
 
 #include <iostream>
 #include <vector>
 
-class Node 
+class Node
 {
 public:
     int key;
@@ -19,31 +20,31 @@ private:
     Node* head;
 
 public:
-    LinkedList() : head {nullptr} 
+    LinkedList() : head {nullptr}
     { }
-    
+
     void deleteNode(Node* node)
     {
         if (node == nullptr || head == nullptr) {
             return;
         }
-        
+
         if (node == head) {
             Node* current = head;
             head = head->next;
             current->next = nullptr;
             return;
         }
-        
+
         Node* current = head;
         while (current->next != node) {
             current = current->next;
         }
-        
+
         current->next = node->next;
         node->next = nullptr;
     }
-    
+
     void deleteWithoutPrevious(Node* node) {
         if (head == nullptr || node == nullptr || node->next == nullptr) {
             return;
@@ -54,7 +55,7 @@ public:
         temp->next = nullptr;
         delete temp;
     }
-    
+
     void addFront(int key) {
         Node* node = new Node(key);
         if (head != nullptr) {
@@ -62,13 +63,13 @@ public:
         }
         head = node;
     }
-    
+
     void addKeys(std::vector<int> keys) {
         for (auto i : keys) {
             addFront(i);
         }
     }
-    
+
     void printList() {
         Node* current = head;
         while (current != nullptr) {
@@ -77,18 +78,50 @@ public:
         }
         std::cout << "\n";
     }
-    
+
     Node* const find(int key) {
         if (head == nullptr) {
             return nullptr;
         }
-        
+
         Node* current = head;
         while (current != nullptr && current->key != key) {
             current = current->next;
         }
-        
-        return (current == nullptr) ? nullptr : current; 
+
+        return (current == nullptr) ? nullptr : current;
+    }
+
+    void removeNthFromEnd(int n) {
+        if (head == nullptr || n <= 0) {
+            return;
+        }
+
+        Node* start = new Node(0);
+        start->next = head;
+
+        Node* fast = start;
+        Node* slow = start;
+
+        for (int i = 1; fast != nullptr && i <= n; ++i) {
+            fast = fast->next;
+        }
+
+        if (fast == nullptr) {
+            return;
+        }
+
+        while (fast->next != nullptr)
+        {
+            fast = fast->next;
+            slow = slow->next;
+        }
+
+        slow->next = slow->next->next;
+        head = start->next;
+
+        start->next = nullptr;
+        delete start;
     }
 };
 
@@ -98,20 +131,21 @@ int main()
     LinkedList list;
     list.addKeys(keys);
     list.printList();
-    
+
     int key = 5;
     Node* const node = list.find(key);
     if (node != nullptr) {
         std::cout << "Deleting node with value : " << node->key << "\n";
         list.deleteWithoutPrevious(node);
-        //list.deleteNode(node);
-    
+
         list.printList();
     } else {
         std::cout << "List does not contain : " << key << "\n";
     }
-    
-    
-    
+
+    int n = 10;
+    std::cout << "Deleting "<< n << " node from end : \n";
+    list.removeNthFromEnd(n);
+    list.printList();
     return 0;
 }
