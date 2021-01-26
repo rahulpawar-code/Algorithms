@@ -10,8 +10,9 @@ public:
     int key;
     Node* next;
 
-    Node(int x) : key {x}, next {nullptr}
-    { }
+    Node() : key {0}, next {nullptr} {}
+    Node(int x) : key {x}, next {nullptr} {}
+    Node(int x, Node* n) : key {x}, next{next} {}
 };
 
 class LinkedList
