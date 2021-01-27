@@ -70,6 +70,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Remove Nth from end | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
 | Reverse a linked list | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | ? | [Iterative](sites/leetcode/ReverseList.cpp) <br/> [Recursive](sites/leetcode/ReverseList.cpp)|
 | Merge two sorted | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/) | ? | [Simple](sites/leetcode/MergeSortedList.cpp) |
+| Palindrome List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/) | ? | [Double Reverse](sites/leetcode/PalindromeList.cpp) |
 | | [link]()| ? | []() |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
