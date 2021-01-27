@@ -125,5 +125,22 @@ int main()
     list3.reverseRecursive();
     list3.printList();
 
+    std::cout << "===============================\n";
+
+    std::vector<int> keys4 {10, 40};
+    LinkedList list4;
+
+    std::cout << "Orignial List: ";
+    list4.addKeys(keys4);
+    list4.printList();
+
+    std::cout << "Reverse iterative : ";
+    list4.reverse();
+    list4.printList();
+
+    std::cout << "Reverse recursive : ";
+    list4.reverseRecursive();
+    list4.printList();
+
     return 0;
 }

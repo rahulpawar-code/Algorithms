@@ -69,6 +69,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Delete Node (without previous) | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
 | Remove Nth from end | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
 | Reverse a linked list | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | ? | [Iterative](sites/leetcode/ReverseList.cpp) <br/> [Recursive](sites/leetcode/ReverseList.cpp)|
+| Merge two sorted | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/) | ? | [Simple](sites/leetcode/MergeSortedList.cpp) |
 | | [link]()| ? | []() |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
