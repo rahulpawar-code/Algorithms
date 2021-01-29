@@ -75,7 +75,8 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 
 | Binary Tree | Link | Java  | C++|
 | Max depth | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | ? | [Max Depth]((sites/leetcode/BinaryTree.cpp)) |
-| | [link]() | ? | []() |
+| Validate Binary search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/) | ? | [Validate BST](sites/leetcode/BinaryTree.cpp) |
+|  | [link]()  | ? | []()  |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
 1. Google Code Jam 2018

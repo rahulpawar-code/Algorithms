@@ -1,8 +1,10 @@
 // Binary tree in C++  : https://www.cprogramming.com/tutorial/lesson18.html
 // Max depth of tree  : https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/
+// Validate binary search tree, check if binary search tree : https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/
 
 #include <iostream>
 #include <vector>
+#include <climits>
 
 class Node
 {
@@ -29,6 +31,7 @@ public:
     void insertKeys(std::vector<int> keys);
     void inorder();
     int depth();
+    bool validateBST();
 
 private:
     void destroyTree(Node* node);
@@ -36,6 +39,7 @@ private:
     Node* search(int key, Node* node);
     void inorder(Node* node);
     int depth(Node* node);
+    bool validateBST(Node* node, int min, int max);
 };
 
 BinaryTree::BinaryTree() : root {nullptr}
@@ -131,6 +135,19 @@ int BinaryTree::depth(Node* node)
     return 1 + std::max(depth(node->left), depth(node->right));
 }
 
+bool BinaryTree::validateBST()
+{
+    return validateBST(root, INT_MIN, INT_MAX);
+}
+
+bool BinaryTree::validateBST(Node* node, int min, int max)
+{
+    return (node == nullptr) ||
+           ( (node->key <= max && node->key >= min) &&
+             validateBST(node->left, min, node->key) &&
+             validateBST(node->right, node->key, max)) ;
+}
+
 int main()
 {
     std::vector<int> keys {3,9,20,15,7};
@@ -140,6 +157,7 @@ int main()
     std::cout << "Inorder traversal of tree: ";
     tree.inorder();
     std::cout << "Depth of tree : " << tree.depth() << "\n";
+    std::cout << "Validate binary tree : " << std::boolalpha << tree.validateBST() << "\n";
 
     return 0;
 }
