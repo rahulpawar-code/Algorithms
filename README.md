@@ -78,6 +78,7 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Validate Binary search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/) | ? | [Validate BST](sites/leetcode/BinaryTree.cpp) |
 | Symmeric Binary Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/) | ? | [Iterative](sites/leetcode/SymmetricBinaryTree.cpp) <br/> [Recursive](sites/leetcode/SymmetricBinaryTree.cpp) |
 | Level Order Of Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/)  | ? | [Using queue](sites/leetcode/LevelOrderOfBinaryTree.cpp)  |
+| Sorted Array to Binary Search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/)  | ? | [Recursive](sites/leetcode/SortedArratToBST.cpp)  |
 |  | [link]()  | ? | []()  |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
