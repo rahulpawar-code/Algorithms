@@ -1,4 +1,4 @@
-// Odd Even Linked List https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/
+// Simple template
 
 #include <iostream>
 #include <vector>
@@ -7,7 +7,7 @@ struct ListNode
 {
     int val;
     ListNode* next;
-    
+
     ListNode() : val {0}, next {nullptr} { }
     ListNode(int v) : val {v}, next {nullptr} { }
 };
@@ -34,7 +34,7 @@ LinkedList::~LinkedList()
     }
 }
 
-LinkedList::LinkedList(std::vector<int>& keys) 
+LinkedList::LinkedList(std::vector<int>& keys)
 {
     head = nullptr;
     head = new ListNode(keys[0]);
@@ -50,10 +50,10 @@ void LinkedList::destroyList()
     if (head == nullptr) {
         return;
     }
-    
+
     ListNode* current = head;
     while (current != nullptr) {
-        ListNode* temp = current;        
+        ListNode* temp = current;
         current = current->next;
         temp->next = nullptr;
         delete temp;

@@ -72,16 +72,18 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Merge two sorted | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/) | ? | [Simple](sites/leetcode/MergeSortedList.cpp) |
 | Palindrome List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/) | ? | [Double Reverse](sites/leetcode/PalindromeList.cpp) |
 | Cycle in Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/) | ? | [Slow and fast pointer](sites/leetcode/LinkedListCycle.cpp) |
-| Sum two numbers | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/783/)  | ? | [](sites/leetcode/SumTwoNumbers.cpp)  |
-| Odd Even Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/)  | ? | [](sites/leetcode/OddEvenList.cpp)  |
+| Sum two numbers | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/783/)  | ? | [Link](sites/leetcode/SumTwoNumbers.cpp)  |
+| Odd Even Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/)  | ? | [Link](sites/leetcode/OddEvenList.cpp)  |
+| Intersection of Two Linked Lists | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/785/)  | ? | [Difference of Lengths](sites/leetcode/ListIntersection.cpp) <br/> [Traversal Pointer reassignment](sites/leetcode/ListIntersection.cpp) |
 
 | Binary Tree | Link | Java  | C++|
+|:--|--:|--:|--:|
 | Max depth | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | ? | [Max Depth]((sites/leetcode/BinaryTree.cpp)) |
 | Validate Binary search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/) | ? | [Validate BST](sites/leetcode/BinaryTree.cpp) |
 | Symmeric Binary Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/) | ? | [Iterative](sites/leetcode/SymmetricBinaryTree.cpp) <br/> [Recursive](sites/leetcode/SymmetricBinaryTree.cpp) |
 | Level Order Of Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/)  | ? | [Using queue](sites/leetcode/LevelOrderOfBinaryTree.cpp)  |
 | Sorted Array to Binary Search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/)  | ? | [Recursive](sites/leetcode/SortedArratToBST.cpp)  |
-|  | [link]()  | ? | []()  |
+| | []() | ? | []() |
 
 ## [Google CodeJam](sites/googlecodejam/README.md) 
 1. Google Code Jam 2018
