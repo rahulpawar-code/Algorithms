@@ -33,6 +33,7 @@ public:
     std::vector<std::vector<int>> levelOrder();
     std::vector<int> inorderRec();
     std::vector<int> inorderIter();
+    std::vector<std::vector<int>> spiralLevelOrder();
 
 private:
     void inorderRec(Node* node, std::vector<int>& order);
@@ -122,10 +123,10 @@ std::vector<int> BinaryTree::inorderIter()
     if (root == nullptr) {
         return order;
     }
-    
+
     Node* current = root;
     std::stack<Node*> stack;
-    
+
     while (current != nullptr || !stack.empty()) {
         while (current != nullptr) {
             stack.push(current);
@@ -156,6 +157,60 @@ void BinaryTree::inorderRec(Node* node, std::vector<int>& order)
     inorderRec(node->right, order);
 }
 
+std::vector<std::vector<int>> BinaryTree::spiralLevelOrder()
+{
+    std::vector<std::vector<int>> order;
+    if (root == nullptr) {
+        return order;
+    }
+
+    std::deque<Node*> queue;
+    queue.push_front(root);
+    bool leftToRight = true;
+
+    while (!queue.empty()) {
+        std::vector<int> currentlevel;
+        int qsize = queue.size();
+
+        if (leftToRight) {
+            for (int i = 0; i < qsize; ++i) {
+                Node* node = queue.front();
+                queue.pop_front();
+                if (node != nullptr) {
+                    currentlevel.push_back(node->key);
+                    if (node->left != nullptr) {
+                        queue.push_back(node->left);
+                    }
+                    if (node->right != nullptr) {
+                        queue.push_back(node->right);
+                    }
+                }
+            }
+        } else {
+            for (int i = 0; i < qsize; ++i) {
+                Node* node = queue.back();
+                queue.pop_back();
+                if (node != nullptr) {
+                    currentlevel.push_back(node->key);
+                    if (node->right != nullptr) {
+                        queue.push_front(node->right);
+                    }
+                    if (node->left != nullptr) {
+                        queue.push_front(node->left);
+                    }
+                }
+            }
+        }
+
+        leftToRight = !leftToRight;
+        if (qsize != 0) {
+            order.push_back(currentlevel);
+        }
+    }
+
+    return order;
+}
+
 void printVector(std::vector<std::vector<int>> order)
 {
     for (auto v : order) {
@@ -176,24 +231,28 @@ void printVector(std::vector<int>& order)
 
 int main()
 {
-    std::vector<int> keys {3,9,20,15,7,1};
+    std::vector<int> keys {3,9,20,15,7,1,8,10,5,2};
     BinaryTree tree;
     tree.insertKeys(keys);
-    
+
     std::cout << "==========================================\n";
     std::cout << "Level order of tree: \n";
     printVector(tree.levelOrder());
-    
+
+    std::cout << "==========================================\n";
+    std::cout << "Spiral level order of tree: \n";
+    printVector(tree.spiralLevelOrder());
+
     std::cout << "==========================================\n";
     std::cout << "Inorder (recursive) traversal of tree: ";
     std::vector<int> orderRec = tree.inorderRec();
     printVector(orderRec);
-    
+
     std::cout << "==========================================\n";
     std::cout << "Inorder (iterative) traversal of tree: ";
     std::vector<int> orderIter = tree.inorderIter();
     printVector(orderIter);
-    
+
     std::cout << "==========================================\n";
     return 0;
 }
