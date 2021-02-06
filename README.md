@@ -42,8 +42,8 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 
 # Algorithms and Data Structures
 
-1. Algorithms 
-2. [LeetCode](#leetcode) 
+1. Algorithms
+2. [LeetCode](#leetcode)
 3. [Google CodeJam](#google-codejam)
 
 
@@ -86,13 +86,14 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Inorder traversal| [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/786/) | ? | [Iterative using stack](sites/leetcode/BinaryTreeTraversals.cpp) <br\> [Recursive](sites/leetcode/BinaryTreeTraversals.cpp) |
 | Zigzag/spiral level order traversal| [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/787/) | ? | [Link](sites/leetcode/BinaryTreeTraversals.cpp) |
 | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/788/) | ? | [Link](sites/leetcode/ConstructBinaryTree.cpp) |
+|Populating Next Right Pointers in Each Node| [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/789/) | ? | [Iterative level order](sites/leetcode/RightPointer.cpp) <br/> [Using queue](sites/leetcode/RightPointer.cpp) |
 | | []() | ? | []() |
 
-## [Google CodeJam](sites/googlecodejam/README.md) 
+## [Google CodeJam](sites/googlecodejam/README.md)
 1. Google Code Jam 2018
 2. Google Code Jam 2020
 
-## Algorithms 
+## Algorithms
 
 
 * Union Find
