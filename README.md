@@ -76,6 +76,8 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 | Zigzag/spiral level order traversal| [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/787/) | ? | [Link](sites/leetcode/BinaryTreeTraversals.cpp) |
 | Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/788/) | ? | [Link](sites/leetcode/ConstructBinaryTree.cpp) |
 |Populating Next Right Pointers in Each Node| [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/789/) | ? | [Iterative level order](sites/leetcode/RightPointer.cpp) <br/> [Using queue](sites/leetcode/RightPointer.cpp) |
+| Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/) | ? | [Iterative using stack](sites/leetcode/KthSmallestBinarySearchTree.cpp) <br/> [Recursive](sites/leetcode/KthSmallestBinarySearchTree.cpp) |
+| Kth Largest Element in a BST | ?? | ? | [Iterative using stack](sites/leetcode/KthLargestBinarySearchTree.cpp) <br/> [Recursive](sites/leetcode/KthLargestBinarySearchTree.cpp) |
 | | []() | ? | []() |
 
 <br/>
