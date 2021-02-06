@@ -1,40 +1,30 @@
 
+
 # Table of Contents
-1. [Algorithms and Data Structures](#algorithms-and-data-structures)
-2. [System Design Questions](#system-design-questions)
-3. [Java OOP Concepts](#java-oop-concepts)
-4. [Algorithm References](#algorithm-references)
+1. [System Design Questions](#system-design-questions)
+2. [Java OOP Concepts](#java-oop-concepts)
+3. [References](#references)
+4. [Algorithms and Data Structures](#algorithms-and-data-structures)
+5. [TODO](#todo-add)
 
-# TODO (add)
-C++ Concepts
 
-# [System Design Questions](System-Design-Questions/README.md)
+
+# [System Design Questions](System-Design-Questions/)
 Large scale system design and object oriented design questions and topics
 
-## Topics
+## Index
 1. Keywords To Remember
 2. Infrastructure Design Questions
 3. System Design Questions
 4. Object Oriented Design Questions
 5. External References
 
-# [Java OOP Concepts](Java-Concepts/README.md)
+# [Java OOP Concepts](Java-Concepts/)
 Short sample programs to demonstrate the inbuilt object oriented concepts in Java language.
-
-## Topics
-1. Generics
-2. Equility
-3. String Representation of Object
-4. Hash code of Object
-5. Dynamic array
-6. Iterable
-7. Comparable
-8. assert
-9. Comparator
-10. Immutability
+**Generics, Equality, String Representation of Object, Hash code of Object, Dynamic array, Iterable, Comparable, assert, Comparator, Immutability**
 
 
-# Algorithm References
+# References
 
 * **Prefix Hash tree** - https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf - Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables
 * **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
@@ -47,15 +37,11 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 3. [Google CodeJam](#google-codejam)
 
 
-1. Contains chapter code and programming exercise solutions to Princeton
-Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
-2. Other general data structures and algorithms
-3. Explanation & solutions to Google Code Jam programming competitions
-
-
 ## Leetcode
+
+
 | String | Link | Java  | C++|
-|:--|--:|--:|--:|
+|:--|:--|:--|:--|
 | Reverse String | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](sites/leetcode/ReverseString.java) | [ReverseString.cpp](sites/leetcode/ReverseString.cpp) |
 | Reverse Integer |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](sites/leetcode/ReverseInteger.cpp)  |
 | First unique character in a string |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | ? | [FirstUniqueCharacter.cpp](sites/leetcode/FirstUniqueCharacter.cpp) |
@@ -63,9 +49,10 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Valid palindrome |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823) | ? | [ValidPalindrome.cpp](sites/leetcode/ValidPalindrome.cpp) |
 | Longest Common Prefix |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/887/) | ? | [Brute Force 1](sites/leetcode/LongestCommonPrefixMethod1.cpp) <br/> [Brute Force 2](sites/leetcode/LongestCommonPrefixMethod2.cpp) <br/> [Using Trie](sites/leetcode/LongestCommonPrefixMethod3.cpp) |
 
+<br/>
 
 | Singly Linked List| Link | Java  | C++|
-|:--|--:|--:|--:|
+|:--|:--|:--|:--|
 | Delete Node (without previous) | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
 | Remove Nth from end | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
 | Reverse a linked list | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | ? | [Iterative](sites/leetcode/ReverseList.cpp) <br/> [Recursive](sites/leetcode/ReverseList.cpp)|
@@ -76,8 +63,10 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 | Odd Even Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/)  | ? | [Link](sites/leetcode/OddEvenList.cpp)  |
 | Intersection of Two Linked Lists | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/785/)  | ? | [Difference of Lengths](sites/leetcode/ListIntersection.cpp) <br/> [Traversal Pointer reassignment](sites/leetcode/ListIntersection.cpp) |
 
+<br/>
+
 | Binary Tree | Link | Java  | C++|
-|:--|--:|--:|--:|
+|:--|:--|:--|:--|
 | Max depth | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | ? | [Max Depth]((sites/leetcode/BinaryTree.cpp)) |
 | Validate Binary search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/) | ? | [Validate BST](sites/leetcode/BinaryTree.cpp) |
 | Symmeric Binary Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/) | ? | [Iterative](sites/leetcode/SymmetricBinaryTree.cpp) <br/> [Recursive](sites/leetcode/SymmetricBinaryTree.cpp) |
@@ -89,12 +78,14 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 |Populating Next Right Pointers in Each Node| [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/789/) | ? | [Iterative level order](sites/leetcode/RightPointer.cpp) <br/> [Using queue](sites/leetcode/RightPointer.cpp) |
 | | []() | ? | []() |
 
-## [Google CodeJam](sites/googlecodejam/README.md)
+<br/>
+
+## [Google CodeJam](sites/googlecodejam/)
 1. Google Code Jam 2018
 2. Google Code Jam 2020
 
-## Algorithms
-
+## Princeton Algorithms Course
+Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 
 * Union Find
 	 * [Quick Find](generic/union-find/QuickFind.java)
@@ -211,9 +202,12 @@ Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2
 	* [Group points which are at distance less than k](others/math/GroupPoints "GroupPoints.java") brute force algorithm
 	* [Group points which are at distance less than k](others/math/GroupPoint2.java "GroupPoint2.java") divide and conquer algorithm
 
-* Google CodeJam
-    * [Solution to Code Jam problems](googlecodejam/README.md) SavingTheUniverseAgain, TroubleSort, Vestigium, Nesting Depth, Parenting Partnering Returns, Indicium
-
 * Random data
     * [Random String](others/dynamic-programming/RandomString.java) Random strings
     * [Random 2D Matrix](others/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
+
+
+# TODO (add)
+
+ - C++ Concepts
+ - File IO, threading  related programs
