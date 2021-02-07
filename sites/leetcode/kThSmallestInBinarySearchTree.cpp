@@ -95,7 +95,7 @@ int BinaryTree::kthSmallestIter(int k)
             if (--k == 0) {
                 return current->key;
             }
-        
+
             current = current->right;
         }
     }
@@ -136,7 +136,7 @@ int main()
     std::cout << k << "th smallest element in BST (iterative): " << tree.kthSmallestIter(k) << "\n";
     std::cout << "==========================================\n";
     std::cout << k << "th smallest element in BST (recursive): " << tree.kthSmallestRec(k) << "\n";
-    
+
     k = 1000;
     std::cout << "==========================================\n";
     std::cout << k << "th smallest element in BST (iterative): " << tree.kthSmallestIter(k) << "\n";
