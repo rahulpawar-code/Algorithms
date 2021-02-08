@@ -4,9 +4,9 @@
 #include <vector>
 #include <queue>
 
-constexpr static int numNext = 4;
-constexpr static int rowNext[numNext] = {0, 0, -1, 1};
-constexpr static int colNext[numNext] = {-1, 1, 0, 0};
+static constexpr int numNext = 4;
+static constexpr int rowNext[numNext] = {0, 0, -1, 1};
+static constexpr int colNext[numNext] = {-1, 1, 0, 0};
 
 bool isSafe(const int row, const int col, const int rows, const int cols,
     std::vector<std::vector<char>>& grid, std::vector<std::vector<bool>>& visited)
