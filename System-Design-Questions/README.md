@@ -44,6 +44,7 @@ Large scale system design and object oriented design questions and topics
 * **Caching** - Design a caching system
 	* [Caching](https://www.educative.io/courses/grokking-the-system-design-interview/3j6NnJrpp5p)
 	* [Design a cache system](http://blog.gainlo.co/index.php/2016/05/17/design-a-cache-system/)
+	* [Design a distributed key value caching system](https://www.interviewbit.com/problems/design-cache/)
 	* [Cache wiki](https://en.wikipedia.org/wiki/Cache_(computing))
 	* [Application vs. database caching](https://lethain.com/introduction-to-architecting-systems-for-scale/)
 * **Load balancer** - Design a load balancer
@@ -117,3 +118,4 @@ Large scale system design and object oriented design questions and topics
 2. [Gainlo blog](http://blog.gainlo.co/index.php/category/system-design-interview-questions/)
 3. [Massive technical interviews](https://massivetechinterview.blogspot.com/2015/06/algorithm-how-to-count-number-of.html)
 4. [System Design Primer](https://github.com/donnemartin/system-design-primer)
+5. [Interview Bit](https://www.interviewbit.com/)
