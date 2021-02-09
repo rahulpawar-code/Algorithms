@@ -7,44 +7,41 @@
 
 static const std::string numpadMap[] {"", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
 
-void letterCombinationsRec(const std::string digits, int digitIndex,
-    int digitStringIndex, std::string tempString, std::vector<std::string> combination)
+void letterCombinationsRec(const std::string& digits, std::string tempString,
+    std::vector<std::string>& combination)
 {
-    if (digitIndex == digits.size()) {
+    if (digits.length() == 0) {
         combination.push_back(tempString);
-        return;
-    }
-    if (digitStringIndex == numpadMap[digitIndex].size()) {
-        letterCombinationsRec(digits, digitIndex++, 0, tempString, combination);
-        return;
     } else {
-        int num = digits[digitIndex] - '0';
-        tempString += numpadMap[num][digitIndex];
-        letterCombinationsRec(digits, digitIndex, digitStringIndex++, tempString, combination);
-        return;
-    }        
+        char nextDigit = digits.front();
+        std::string letters = numpadMap[nextDigit - '0'];
+        for (int i = 0; i < letters.length(); ++i) {
+            char letter = letters[i];
+            letterCombinationsRec(digits.substr(1), tempString + letter, combination);
+        }
+    }
 }
 
-std::vector<std::string> letterCombinations(const std::string digits)
+std::vector<std::string> letterCombinationsRec(const std::string& digits)
 {
-    std::vector<std::string> combination;
-    if (digits == "") {
-        return combination;
+    if (digits.length() == 0) {
+        return {};
     }
 
-    letterCombinationsRec(digits, 0, 0, "", combination);
+    std::vector<std::string> combination;
+    letterCombinationsRec(digits, "" , combination);
     return combination;
 }
 
-std::vector<std::string> letterCombinationsIterative(const std::string digits)
+std::vector<std::string> letterCombinationsIterative(const std::string& digits)
 {
     if (digits.empty()) {
         return {};
     }
-    
+
     std::vector<std::string> result;
     result.push_back("");
-    
+
     for (auto digit : digits) {
         std::vector<std::string> temp;
         for (auto candidate : numpadMap[digit - '0']) {
@@ -57,7 +54,7 @@ std::vector<std::string> letterCombinationsIterative(const std::string digits)
     return result;
 }
 
-void print(std::vector<std::string> combination)
+void print(std::vector<std::string>& combination)
 {
     for (auto s : combination) {
         std::cout << s << " ";
@@ -67,9 +64,13 @@ void print(std::vector<std::string> combination)
 
 int main()
 {
-    std::string digits("23");
-    std::vector<std::string> combination = letterCombinationsIterative(digits);
+    const std::string digits("29");
+    std::vector<std::string> combinationIter = letterCombinationsIterative(digits);
     std::cout << "Letter combination for digits (iterative) " << digits << " : ";
-    print(combination);
+    print(combinationIter);
+    std::vector<std::string> combinationRec = letterCombinationsRec(digits);
+    std::cout << "Letter combination for digits (recursive) " << digits << " : ";
+    print(combinationRec);
+
     return 0;
 }

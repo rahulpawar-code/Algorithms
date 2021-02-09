@@ -82,7 +82,7 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 
 | Backtracking | Link | Java  | C++|
 |:--|:--|:--|:--|
-| Letter Combinations of a Phone Number | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/) | ? | [Iterative](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) |
+| Letter Combinations of a Phone Number | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/) | ? | [Iterative](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) <br/> [Recursive](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) |
 | | []() | ? | []() |
 
 <br/>
