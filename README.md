@@ -84,8 +84,14 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 |:--|:--|:--|:--|
 | Letter Combinations of a Phone Number | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/) | ? | [Iterative](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) <br/> [Recursive](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) |
 | Generate Balanced Parentheses | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/794/) | ? | [Recursive](sites/leetcode/GenerateParentheses.cpp) |
+
+| Backtracking | Link | Java  | C++|
+|:--|:--|:--|:--|
 | Permutations | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/795/) | ? | [Backtracking](sites/leetcode/Permutations.cpp) |
+| Subset | [Link](https://leetcode.com/problems/subsets/) | ? | [Backtracking](sites/leetcode/Subsets.cpp) |
+| Subset without duplicates | [Link](https://leetcode.com/problems/subsets-ii/) | ? | [Backtracking](sites/leetcode/Subsets.cpp) |
 |  | []() | ? | []() |
+
 <br/>
 
 ## [Google CodeJam](sites/googlecodejam/)
