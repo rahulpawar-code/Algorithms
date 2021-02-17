@@ -80,12 +80,12 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 | Kth Largest Element in a BST | ?? | ? | [Iterative using stack](sites/leetcode/KthLargestBinarySearchTree.cpp) <br/> [Recursive](sites/leetcode/KthLargestBinarySearchTree.cpp) |
 | Number of Islands | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/792/) | ? | [Using DFS](sites/leetcode/NumberofIslands.cpp) <br/> [Using BFS](sites/leetcode/NumberofIslands.cpp) <br/> [Using disjoint set](sites/leetcode/NumberofIslandsDisjointSet.cpp) |
 
-| Backtracking | Link | Java  | C++|
+| Permutations | Link | Java  | C++|
 |:--|:--|:--|:--|
 | Letter Combinations of a Phone Number | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/) | ? | [Iterative](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) <br/> [Recursive](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) |
 | Generate Balanced Parentheses | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/794/) | ? | [Recursive](sites/leetcode/GenerateParentheses.cpp) |
-| | []() | ? | []() |
-
+| Permutations | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/795/) | ? | [Backtracking](sites/leetcode/Permutations.cpp) |
+|  | []() | ? | []() |
 <br/>
 
 ## [Google CodeJam](sites/googlecodejam/)
