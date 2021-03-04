@@ -94,6 +94,11 @@ Short sample programs to demonstrate the inbuilt object oriented concepts in Jav
 | Combination Sum without duplicates | [Link](https://leetcode.com/problems/combination-sum-ii/) | ? | [Backtracking](sites/leetcode/CombinationSum.cpp) |
 | Word Search | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/797/) | ? | Not working [Recursive DFS](sites/leetcode/WordSearch.cpp) <br/>  |
 
+| Maths | Link | Java  | C++|
+|:--|:--|:--|:--|
+| Top K frequent elements | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/) | ? | [Using hashmap and sorting](sites/leetcode/FrequentElements.cpp) <br/> [Using hashmap and priority queue](sites/leetcode/FrequentElements.cpp) |
+|  | [Link]() | ? | []() |
+
 <br/>
 
 ## [Google CodeJam](sites/googlecodejam/)
