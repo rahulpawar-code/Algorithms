@@ -1,9 +1,10 @@
 
 
+
 # Table of Contents
 1. [System Design Questions](#system-design-questions)
 2. [Java OOP Concepts](#java-oop-concepts)
-3. [References](#references)
+3. [Algo-References](#algo-references)
 4. [Algorithms and Data Structures](#algorithms-and-data-structures)
 5. [TODO](#todo-add)
 
@@ -23,8 +24,11 @@ Large scale system design and object oriented design questions and topics
 Short sample programs to demonstrate the inbuilt object oriented concepts in Java language.
 **Generics, Equality, String Representation of Object, Hash code of Object, Dynamic array, Iterable, Comparable, assert, Comparator, Immutability**
 
+# [C++ Concepts](C++-Concepts/)
+Short sample program to demonstrate C++ language basics
+**Smart pointers, move semantics, move constructor, move assignment**
 
-# References
+# Algo-References
 
 * **Prefix Hash tree** - https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf - Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables
 * **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
