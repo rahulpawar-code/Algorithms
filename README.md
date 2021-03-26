@@ -87,6 +87,14 @@ Short sample program to demonstrate C++ language basics
 * Parse decimal, hexdecimal, octal from a file and output to another. [C++](problems/string/ParseDecHexOctal.cpp)
 * Check if two strings are isomorphic. [C++](problems/string/IsomorphicStrings.cpp)
 * Find first unique character in a string. [C++](problems/string/firstUniqueCharacter.cpp)
+* String sorting [Java](problems/string/SortStringUsingTrie.java) Using trie data structure
+* Auto Completion search [Java](problems/string/AutoComplete.java) Using trie
+* English word meaning dictionary [Java](problems/string/WordMeaningDictionary.java) Using trie
+* Longest Common Prefix [Java](problems/string/LongestCommonPrefix.java) Using trie
+* Pattern Searching [Java](problems/string/PatternSearchingTrie.java) Using trie of all suffix
+* Word Break problem [Java](problems/string/WordBreak.java) Using trie, recursive algorithm
+* KMP Pattern searching [Java](problems/string/KMP.java) Search pattern in text
+
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
@@ -100,6 +108,33 @@ Short sample program to demonstrate C++ language basics
 * Bottom Up Merge (generic)  [Java](problems/sorting/MergeBU.java)
 * Quicksort (generic)  [Java](problems/sorting/Quick.java)
 * 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
+
+## Dynamic Programming
+* Word Break problem [Java](problems/string/WordBreak.java) recursive algorithm, using trie
+* Longest Common Subsequence [Java](problems/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings
+* Shortest Common Supersequence 
+    * Using DP [Java](problems/dynamic-programming/ShortestSupersequenceDP.java)  
+    * Using LCS [Java](problems/dynamic-programming/Shortestsuperseequence.java)
+* Longest Common Substring [Java](problems/dynamic-programming/LongestCommonSubstring.java) Recursive, bottom-up, space optimized, print substring, without repeating characters
+* Longest Common Substring in array [Java](problems/dynamic-programming/StemInStringArray.java) Stem in an array of strings
+* Subsequence variants: Repeated Subsequence [Java](problems/dynamic-programming/RepeatedSubsequence.java) top-down, naive recursion, print sequence
+* Levenshtein distance / Edit Distance [Java](problems/dynamic-programming/EditDistance.java)
+* Largest sqaure submatrix of 1s [Java](problems/dynamic-programming/LargestSquareSubmatrix.java)
+* Min cost path from top right to bottom down in matrix](other/dynamic-programming/MatrixMinCost.java)
+* Maximum value of expression [Java](problems/dynamic-programming/MaxValueOfExpression.java)
+* Subset sum partition [Java](problems/dynamic-programming/Partition.java)
+* Three Partition [Java](problems/dynamic-programming/ThreePartition.java)
+* Rod Cutting [Java](problems/dynamic-programming/RodCutting.java)
+* Rod Cutting Product [Java](problems/dynamic-programming/RodCuttingProduct.java)
+* Coin Change [Java](problems/dynamic-programming/CoinChange.java)
+* Coin Change Ways [Java](problems/dynamic-programming/CoinChangeWays.java)
+* Binary String with no consecutive 1s [Java](problems/dynamic-programming/BinaryStrings.java)
+* Word Break [Java](problems/dynamic-programming/WordBreak.java)
+* Word Break using trie [Java](problems/dynamic-programming/WordBreakUsingTrie.java)
+* Array Adjustment cost [Java](problems/dynamic-programming/ArrayAdjustmentCost.java)
+* No of ways for dice throws [Java](problems/dynamic-programming/DiceThrows.java)
+* Wildcard Matching [Java](problems/dynamic-programming/WildcardMatching.java)
+* Tripping Rain Water [Java](problems/array/TrappingRainWater.java)
 
 ## Encoding decoding (char, int, digits etc)
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
@@ -205,40 +240,6 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Arrays
     * [Continuous ones](others/array/ContinuousOnes.java)
     * [Infections over a distance](others/array/Contamination.java)
-
-* Dynamic Programming
-    * [Word Break problem](others/string/WordBreak.java) recursive algorithm, using trie
-    * [Longest Common Subsequence](others/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings
-    * Shortest Common Supersequence [Using DP](others/dynamic-programming/ShortestSupersequenceDP.java)  [Using LCS](others/dynamic-programming/Shortestsuperseequence.java)
-    * [Longest Common Substring](others/dynamic-programming/LongestCommonSubstring.java) Recursive, bottom-up, space optimized, print substring, without repeating characters
-    * [Longest Common Substring in array](others/dynamic-programming/StemInStringArray.java) Stem in an array of strings
-    * Subsequence variants: [Repeated Subsequence](others/dynamic-programming/RepeatedSubsequence.java) top-down, naive recursion, print sequence
-    * [Levenshtein distance / Edit Distance](others/dynamic-programming/EditDistance.java)
-    * [Largest sqaure submatrix of 1's](others/dynamic-programming/LargestSquareSubmatrix.java)
-    * [Min cost path from top right to bottom down in matrix](other/dynamic-programming/MatrixMinCost.java)
-    * [Maximum value of expression](others/dynamic-programming/MaxValueOfExpression.java)
-    * [Subset sum partition](others/dynamic-programming/Partition.java)
-    * [Three Partition](others/dynamic-programming/ThreePartition.java)
-    * [Rod Cutting](others/dynamic-programming/RodCutting.java)
-    * [Rod Cutting Product](others/dynamic-programming/RodCuttingProduct.java)
-    * [Coin Change](others/dynamic-programming/CoinChange.java)
-    * [Coin Change Ways](others/dynamic-programming/CoinChangeWays.java)
-    * [Binary String with no consecutive 1's](others/dynamic-programming/BinaryStrings.java)
-    * [Word Break](others/dynamic-programming/WordBreak.java)
-    * [Word Break using trie](others/dynamic-programming/WordBreakUsingTrie.java)
-    * [Array Adjustment cost](others/dynamic-programming/ArrayAdjustmentCost.java)
-    * [No of ways for dice throws](others/dynamic-programming/DiceThrows.java)
-    * [Wildcard Matching](others/dynamic-programming/WildcardMatching.java)
-    * [Tripping Rain Water](others/array/TrappingRainWater.java)
-
-* String algorithms
-    * [String sorting](others/string/SortStringUsingTrie.java) Using trie data structure
-    * [Auto Completion search](others/string/AutoComplete.java) Using trie
-    * [English word meaning dictionary](others/string/WordMeaningDictionary.java) Using trie
-    * [Longest Common Prefix](others/string/LongestCommonPrefix.java) Using trie
-    * [Pattern Searching](others/string/PatternSearchingTrie.java) Using trie of all suffix
-    * [Word Break problem](others/string/WordBreak.java) Using trie, recursive algorithm
-    * [KMP Pattern searching](others/string/KMP.java) Search pattern in text
 
 * Assignment
 	* [8 Puzzle](assignments/8-puzzle/)
