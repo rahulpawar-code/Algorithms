@@ -1,17 +1,16 @@
-
-
-
 # Table of Contents
 1. [System Design Questions](#system-design-questions)
 2. [Java OOP Concepts](#java-oop-concepts)
-3. [Algo-References](#algo-references)
-4. [Algorithms and Data Structures](#algorithms-and-data-structures)
-5. [TODO](#todo-add)
-
+3. [C++ Concepts](#c++-concpets)
+4. [Operating System Concepts](#operating-system-concepts)
+5. [Algo-References](#algo-references)
+6. [Algorithms and Data Structures](#algorithms-and-data-structures)
+7. [TODO](#todo-add)
 
 
 # [System Design Questions](System-Design-Questions/)
 Large scale system design and object oriented design questions and topics
+
 
 ## Index
 1. Keywords To Remember
@@ -20,13 +19,27 @@ Large scale system design and object oriented design questions and topics
 4. Object Oriented Design Questions
 5. External References
 
+
 # [Java OOP Concepts](Java-Concepts/)
 Short sample programs to demonstrate the inbuilt object oriented concepts in Java language.
 **Generics, Equality, String Representation of Object, Hash code of Object, Dynamic array, Iterable, Comparable, assert, Comparator, Immutability**
 
+
 # [C++ Concepts](C++-Concepts/)
 Short sample program to demonstrate C++ language basics
 **Smart pointers, move semantics, move constructor, move assignment**
+
+
+# [Operating System Concepts](Operating-System-Concepts/)
+* Concurrency
+	* Simple producer consumer with busy wait [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
+	* Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
+* File IO
+	* Print all lines which contain a given pattern [Link](Operating-System-Concepts/fileio/SearchPatternInFile.cpp)
+* Memory Management
+	* Implement aligned **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/aligned_malloc_free/)
+	* Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
+
 
 # Algo-References
 
@@ -34,15 +47,15 @@ Short sample program to demonstrate C++ language basics
 * **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
 * **Suffix tree** https://en.wikipedia.org/wiki/Suffix_tree Compressed Trie, used in pattern searching, hard algo
 
-# Algorithms and Data Structures
 
+
+# Algorithms and Data Structures
 1. Algorithms
 2. [LeetCode](#leetcode)
 3. [Google CodeJam](#google-codejam)
 
 
 ## Leetcode
-
 
 | String | Link | Java  | C++|
 |:--|:--|:--|:--|
@@ -234,5 +247,3 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 
 # TODO (add)
 
- - C++ Concepts
- - File IO, threading  related programs
