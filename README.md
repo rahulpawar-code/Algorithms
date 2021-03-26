@@ -10,7 +10,6 @@
 # [System Design Questions](System-Design-Questions/)
 Large scale system design and object oriented design questions and topics
 
-
 ## Index
 1. Keywords To Remember
 2. Infrastructure Design Questions
@@ -21,23 +20,35 @@ Large scale system design and object oriented design questions and topics
 
 # [Java OOP Concepts](Java-Concepts/)
 Short sample programs to demonstrate the inbuilt object oriented concepts in Java language.
-**Generics, Equality, String Representation of Object, Hash code of Object, Dynamic array, Iterable, Comparable, assert, Comparator, Immutability**
+* Generics
+* Equality
+* String Representation of Object
+* Hash code of Object
+* Dynamic array
+* Iterable
+* Comparable
+* assert
+* Comparator
+* Immutability
 
 
 # [C++ Concepts](C++-Concepts/)
 Short sample program to demonstrate C++ language basics
-**Smart pointers, move semantics, move constructor, move assignment**
+* Smart pointers
+* move semantics
+* move constructor
+* move assignment
 
 
 # [Operating System Concepts](Operating-System-Concepts/)
 * Concurrency
-	* Simple producer consumer with busy wait [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
-	* Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumerCond.cpp)
+    * Simple producer consumer with busy wait [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
+    * Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumerCond.cpp)
 * File IO
-	* Print all lines which contain a given pattern [Link](Operating-System-Concepts/fileio/SearchPatternInFile.cpp)
+    * Print all lines which contain a given pattern [Link](Operating-System-Concepts/fileio/SearchPatternInFile.cpp)
 * Memory Management
-	* Implement aligned **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/aligned_malloc_free/)
-	* Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
+    * Implement aligned **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/aligned_malloc_free/)
+    * Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
 
 
 # Reading-References
@@ -48,13 +59,23 @@ Short sample program to demonstrate C++ language basics
 
 
 # Algorithms and Data Structures
-1. Algorithms
-2. [LeetCode](#leetcode)
-3. [Google CodeJam](#google-codejam)
+1. [Google CodeJam](#google-codejam)
+2. Algorithms
+3. [LeetCode](#leetcode)
+
+
+## [Google CodeJam](sites/googlecodejam/)
+1. Google Code Jam 2018
+2. Google Code Jam 2020
+
+## Princeton Algorithms Course
+Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 
 
 ## Linked List
 * Rearrange odd even elements in a linked list. [C++](problems/linked-list/RearrangeEvenOdd.cpp)
+* Linked List [Java](problems/linked-list/LinkedList.java)
+* Alternating Split [Java](problems/linked-list/AlternatingSplit.java)
 
 ## Stack
 * Dynamic Stack [Java generic](problems/stack/DynamicStack.java)
@@ -66,11 +87,11 @@ Short sample program to demonstrate C++ language basics
 * Deque [Java generic](problems/queue/Deque.java)
 * RandomizedQueue [Java generic](problems/queue/RandomizedQueue.java)
 
-## Priority Queue / Heap
+## Priority Queue and Heap
 * Max Queue [Java generic](problems/priority-queue/MaxQueue.java)
 * Min Queue [Java generic](problems/priority-queue/MinQueue.java)
 
-## Symbol table / Search Trees
+## Symbol table and Search Trees
 * Binary Search Tree [Java generic](problems/symbol-table/BST.java)
 * Interval Search Tree [Java generic](problems/symbol-table/IntervalST.java)
 
@@ -79,6 +100,7 @@ Short sample program to demonstrate C++ language basics
 * Quick Union [Java generic](problems/union-find/QuickUnion.java)
 * Weighted Quick Union [Java generic](problems/union-find/WeightedQuickUnion.java)
 * Weighted Quick Union with Path compression [Java generic](problems/union-find/QuickUnionPathCompression.java)
+* Percolation Problem [Java](problems/union-find/percolation)
 
 ## Graph
 * Find the celebrity in room. [C++](problems/graph/CelebrityProblem1.cpp)
@@ -95,10 +117,16 @@ Short sample program to demonstrate C++ language basics
 * Word Break problem [Java](problems/string/WordBreak.java) Using trie, recursive algorithm
 * KMP Pattern searching [Java](problems/string/KMP.java) Search pattern in text
 
-
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
 * Trie data structure. [Java](problems/trie/Trie.java)
+
+## Arrays
+* Continuous ones [Java](problems/array/ContinuousOnes.java)
+* Infections over a distance [Java](problems/array/Contamination.java)
+
+## Matrices
+* 8 Puzzle [Java](problems/matrices/8-puzzle/)
 
 ## Sorting
 * Insertion sort. (generic)  [Java](problems/sorting/Insertion.java)
@@ -112,8 +140,8 @@ Short sample program to demonstrate C++ language basics
 ## Dynamic Programming
 * Word Break problem [Java](problems/string/WordBreak.java) recursive algorithm, using trie
 * Longest Common Subsequence [Java](problems/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings
-* Shortest Common Supersequence 
-    * Using DP [Java](problems/dynamic-programming/ShortestSupersequenceDP.java)  
+* Shortest Common Supersequence
+    * Using DP [Java](problems/dynamic-programming/ShortestSupersequenceDP.java)
     * Using LCS [Java](problems/dynamic-programming/Shortestsuperseequence.java)
 * Longest Common Substring [Java](problems/dynamic-programming/LongestCommonSubstring.java) Recursive, bottom-up, space optimized, print substring, without repeating characters
 * Longest Common Substring in array [Java](problems/dynamic-programming/StemInStringArray.java) Stem in an array of strings
@@ -136,23 +164,50 @@ Short sample program to demonstrate C++ language basics
 * Wildcard Matching [Java](problems/dynamic-programming/WildcardMatching.java)
 * Tripping Rain Water [Java](problems/array/TrappingRainWater.java)
 
-## Encoding decoding (char, int, digits etc)
-* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
-* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/PrintDecodedDigitSequence.cpp)
+## Greedy
+* Activity Selection [Java](problems/greedy/ActivitySelection.java)
+* Activity Sequencing
+    * Naive algorithm [Java](problems/greedy/ActivitySequencing.java)
+    * Using union-find [Java](problems/greedy/ActivitySequencing2.java)
 
 ## Maths, Stats, Ordered Stats
 * kth element, Quick Select [Java](problems/sorting/QuickSelect.java)
 * Shuffling [Java](problems/sorting/Shuffling.java)
     * [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+* GaussElimination [Java](problems/math/GaussElimination.java) Gauss elimination or Gauss Jordan method to solve system of linear equations
+* Point2D [Java](problems/math/Point2D.java) Data structure to represent point in 2D space
+* Point3D [Java](problems/math/Point3D.java) Data structure to represent point in 3D space
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
+
+## Encoding decoding (char, int, digits etc)
+* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
+* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/PrintDecodedDigitSequence.cpp)
 
 ## Other
 * Find the celebrity in room. [C++](problems/others/CelebrityProblem2.cpp)
 * Maximum possible length by cutting N wood pieces into K pieces. [C++](problems/others/MaxLengthForCutting.cpp)
 * Merge N trasactions preserve order. [C++](problems/others/MergeTransactions.cpp)
 * Stock Buy Sell to Maximize Profit. [C++](problems/string/firstUniqueCharacter.cpp)
+
+## Bit manipulation/ Bitwise hacks
+* Basics [Java](problems/bitwise/bitwise1.cpp)
+* Questions [Links 1](https://www.techiedelight.com/Tags/Bit-Hacks/)
+* Bit Twiddling Hacks [collection](https://graphics.stanford.edu/~seander/bithacks.html)
+
+## Computational Geometry
+* Closest pair of points [Java](others/math/ClosestPairPoint.java) Divide and conquer algorithm
+* Collinear points [Java](others/math/CollinearPoints.java)
+* Group points which are at distance less than k [Java](others/math/GroupPoints) brute force algorithm
+* Group points which are at distance less than k [Java](others/math/GroupPoint2.java) divide and conquer algorithm
+
+## Random data generation
+* Random String [Java](problems/dynamic-programming/RandomString.java) Random strings
+* Random 2D Matrix [Java](problems/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
+
+## Other data structures
+* Activity/Task [Java](problems/greedy/Activity.java) representation of an activity or a task
 
 ## Leetcode
 | String | Link | Java  | C++|
@@ -213,52 +268,7 @@ Short sample program to demonstrate C++ language basics
 |:--|:--|:--|:--|
 | Top K frequent elements | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/) | ? | [Using hashmap and sorting](sites/leetcode/FrequentElements.cpp) <br/> [Using hashmap and priority queue](sites/leetcode/FrequentElements.cpp) <br/> [Using Quick Select](sites/leetcode/FrequentElementsQuickSelect.cpp) |
 |  | [Link]() | ? | []() |
-
 <br/>
 
-## [Google CodeJam](sites/googlecodejam/)
-1. Google Code Jam 2018
-2. Google Code Jam 2020
 
-## Princeton Algorithms Course
-Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 
-* Other data structures
-    * [Activity / Task](greedy/Activity.java "Activity.java") representation of an activity or a task
-
-* Linked List
-    * [Linked List](others/linked-list/LinkedList.java)
-    * [Alternating Split](others/linked-list/AlternatingSplit.java)
-
-* Binary Search Tree
-    * [BST](others/bst/BST.java)
-
-* Greedy
-    * [Activity Selection](other/greedy/ActivitySelection.java)
-    * [Activity Sequencing](other/greedy/ActivitySequencing.java) Naive algorithm
-    * [Activity Sequencing](other/greedy/ActivitySequencing2.java) Using union-find
-* Arrays
-    * [Continuous ones](others/array/ContinuousOnes.java)
-    * [Infections over a distance](others/array/Contamination.java)
-
-* Assignment
-	* [8 Puzzle](assignments/8-puzzle/)
-
-* Math
-	* [GaussElimination](others/math/GaussElimination.java "GaussElimination.java") Gauss elimination or Gauss Jordan method to solve system of linear equations
-	* [Point2D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point2D.java "Point2D.java") Data structure to represent point in 2D space
-	* [Point3D](https://github.com/rahulpawargithub/Algorithms/blob/master/others/math/Point3D.java "Point3D.java") Data structure to represent point in 3D space
-
- * Bit manipulation/ Bitwise hacks
-    * [Basics](others/bitwise/bitwise1.cpp)
-    * [Questions Links 1](https://www.techiedelight.com/Tags/Bit-Hacks/)
-    * [Bit Twiddling Hacks collection](https://graphics.stanford.edu/~seander/bithacks.html)
-
-* Computational Geometry
-	* [Closest pair of points](others/math/ClosestPairPoint.java "ClosestPairPoint.java") Divide and conquer algorithm
-	* [Group points which are at distance less than k](others/math/GroupPoints "GroupPoints.java") brute force algorithm
-	* [Group points which are at distance less than k](others/math/GroupPoint2.java "GroupPoint2.java") divide and conquer algorithm
-
-* Random data
-    * [Random String](others/dynamic-programming/RandomString.java) Random strings
-    * [Random 2D Matrix](others/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
