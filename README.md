@@ -56,6 +56,30 @@ Short sample program to demonstrate C++ language basics
 ## Linked List
 * Rearrange odd even elements in a linked list. [C++](problems/linked-list/RearrangeEvenOdd.cpp)
 
+## Stack
+* Dynamic Stack [Java generic](problems/stack/DynamicStack.java)
+* StackOfStrings [Java generic](problems/stack/StackOfStrings.java)
+
+## Queue
+* CircularQueue [Java generic](problems/queue/CircularQueue.java)
+* LinkedQueue [Java generic](problems/queue/LinkedQueue.java)
+* Deque [Java generic](problems/queue/Deque.java)
+* RandomizedQueue [Java generic](problems/queue/RandomizedQueue.java)
+
+## Priority Queue / Heap
+* Max Queue [Java generic](problems/priority-queue/MaxQueue.java)
+* Min Queue [Java generic](problems/priority-queue/MinQueue.java)
+
+## Symbol table / Search Trees
+* Binary Search Tree [Java generic](problems/symbol-table/BST.java)
+* Interval Search Tree [Java generic](problems/symbol-table/IntervalST.java)
+
+## Union Find
+* Quick Find [Java generic](problems/union-find/QuickFind.java)
+* Quick Union [Java generic](problems/union-find/QuickUnion.java)
+* Weighted Quick Union [Java generic](problems/union-find/WeightedQuickUnion.java)
+* Weighted Quick Union with Path compression [Java generic](problems/union-find/QuickUnionPathCompression.java)
+
 ## Graph
 * Find the celebrity in room. [C++](problems/graph/CelebrityProblem1.cpp)
 
@@ -66,10 +90,28 @@ Short sample program to demonstrate C++ language basics
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
+* Trie data structure. [Java](problems/trie/Trie.java)
+
+## Sorting
+* Insertion sort. (generic)  [Java](problems/sorting/Insertion.java)
+* Selection sort (generic)  [Java](problems/sorting/Selection.java)
+* Shell sort (generic)  [Java](problems/sorting/Shell.java)
+* Merge (generic)  [Java](problems/sorting/Merge.java)
+* Bottom Up Merge (generic)  [Java](problems/sorting/MergeBU.java)
+* Quicksort (generic)  [Java](problems/sorting/Quick.java)
+* 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
 
 ## Encoding decoding (char, int, digits etc)
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/PrintDecodedDigitSequence.cpp)
+
+## Maths, Stats, Ordered Stats
+* kth element, Quick Select [Java](problems/sorting/QuickSelect.java)
+* Shuffling [Java](problems/sorting/Shuffling.java)
+    * [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
+
+## Permutation
+* Permutation of objects [Java](problems/queue/Permutation.java)
 
 ## Other
 * Find the celebrity in room. [C++](problems/others/CelebrityProblem2.cpp)
@@ -77,9 +119,7 @@ Short sample program to demonstrate C++ language basics
 * Merge N trasactions preserve order. [C++](problems/others/MergeTransactions.cpp)
 * Stock Buy Sell to Maximize Profit. [C++](problems/string/firstUniqueCharacter.cpp)
 
-
 ## Leetcode
-
 | String | Link | Java  | C++|
 |:--|:--|:--|:--|
 | Reverse String | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](sites/leetcode/ReverseString.java) | [ReverseString.cpp](sites/leetcode/ReverseString.cpp) |
@@ -148,50 +188,8 @@ Short sample program to demonstrate C++ language basics
 ## Princeton Algorithms Course
 Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 
-* Union Find
-	 * [Quick Find](generic/union-find/QuickFind.java)
-	 * [Quick Union](generic/union-find/QuickUnion.java)
-	 * [Weighted Quick Union](generic/union-find/WeightedQuickUnion.java)
-	 * [Weighted Quick Union with Path compression](generic/union-find/QuickUnionPathCompression.java)
-
-* Stack
-	* [Dynamic Stack](generic/stack/DynamicStack.java)
-	* [StackOfStrings](generic/stack/StackOfStrings.java)
-
-* Queue
-	 * [CircularQueue](generic/queue/CircularQueue.java)
-	 * [LinkedQueue](generic/queue/LinkedQueue.java)
-	 * [Deque](assignments/queue/Deque.java)
-	 * [RandomizedQueue](assignments/queue/RandomizedQueue.java)
-
-* Priority Queue / Heap
-	* [Max Queue](generic/priority-queue/MaxQueue.java)
-	* [Min Queue](generic/priority-queue/MinQueue.java "MinQueue.java")
-
-* Sorting
-	* [Insertion sort](generic/sorting/Insertion.java "Insertion.java")
-	* [Selection sort](generic/sorting/Selection.java "Selection.java")
-	* [Shell sort](generic/sorting/Shell.java "Shell.java")
-	* [Merge](generic/sorting/Merge.java "Merge.java")
-	* [Bottom Up Merge](generic/sorting/MergeBU.java "MergeBU.java")
-	* [Quicksort](generic/sorting/Quick.java "Quick.java")
-	* [3-way Quicksort](generic/sorting/Quick3Way.java "Quick3Way.java")
-
-* Symbol table / Search Trees
-	* [Binary Search Tree](generic/symbol-table/BST.java)
-	* [Interval Search Tree](generic/symbol-table/IntervalST.java)
-
-* String
-    * [Trie](generic/string/Trie.java)
-
 * Other data structures
     * [Activity / Task](greedy/Activity.java "Activity.java") representation of an activity or a task
-
-* Other algorithms
-	* [Permutation of objects](assignments/queue/Permutation.java)
-	* [kth element, Quick Select](generic/sorting/QuickSelect.java "QuickSelect.java")
-	* [Shuffling](generic/sorting/Shuffling.java "Shuffling.java")
-		* [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
 
 * Linked List
     * [Linked List](others/linked-list/LinkedList.java)
@@ -243,9 +241,6 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * [KMP Pattern searching](others/string/KMP.java) Search pattern in text
 
 * Assignment
-	* [Percolation](assignments/queue)
-	* [Deque](assignments/queue/Deque.java)
-	* [RandomizedQueue](assignments/queue/RandomizedQueue.java)
 	* [8 Puzzle](assignments/8-puzzle/)
 
 * Math
@@ -266,4 +261,3 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Random data
     * [Random String](others/dynamic-programming/RandomString.java) Random strings
     * [Random 2D Matrix](others/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
-
