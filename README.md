@@ -3,9 +3,8 @@
 2. [Java OOP Concepts](#java-oop-concepts)
 3. [C++ Concepts](#c++-concpets)
 4. [Operating System Concepts](#operating-system-concepts)
-5. [Algo-References](#algo-references)
+5. [Reading-References](#reading-references)
 6. [Algorithms and Data Structures](#algorithms-and-data-structures)
-7. [TODO](#todo-add)
 
 
 # [System Design Questions](System-Design-Questions/)
@@ -33,7 +32,7 @@ Short sample program to demonstrate C++ language basics
 # [Operating System Concepts](Operating-System-Concepts/)
 * Concurrency
 	* Simple producer consumer with busy wait [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
-	* Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
+	* Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumerCond.cpp)
 * File IO
 	* Print all lines which contain a given pattern [Link](Operating-System-Concepts/fileio/SearchPatternInFile.cpp)
 * Memory Management
@@ -41,18 +40,42 @@ Short sample program to demonstrate C++ language basics
 	* Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
 
 
-# Algo-References
+# Reading-References
 
 * **Prefix Hash tree** - https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf - Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables
 * **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
 * **Suffix tree** https://en.wikipedia.org/wiki/Suffix_tree Compressed Trie, used in pattern searching, hard algo
 
 
-
 # Algorithms and Data Structures
 1. Algorithms
 2. [LeetCode](#leetcode)
 3. [Google CodeJam](#google-codejam)
+
+
+## Linked List
+* Rearrange odd even elements in a linked list. [C++](problems/linked-list/RearrangeEvenOdd.cpp)
+
+## Graph
+* Find the celebrity in room. [C++](problems/graph/CelebrityProblem1.cpp)
+
+## String
+* Parse decimal, hexdecimal, octal from a file and output to another. [C++](problems/string/ParseDecHexOctal.cpp)
+* Check if two strings are isomorphic. [C++](problems/string/IsomorphicStrings.cpp)
+* Find first unique character in a string. [C++](problems/string/firstUniqueCharacter.cpp)
+
+## Trie
+* Spell checker. [C++](problems/trie/SpellChecker.cpp)
+
+## Encoding decoding (char, int, digits etc)
+* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
+* Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/PrintDecodedDigitSequence.cpp)
+
+## Other
+* Find the celebrity in room. [C++](problems/others/CelebrityProblem2.cpp)
+* Maximum possible length by cutting N wood pieces into K pieces. [C++](problems/others/MaxLengthForCutting.cpp)
+* Merge N trasactions preserve order. [C++](problems/others/MergeTransactions.cpp)
+* Stock Buy Sell to Maximize Profit. [C++](problems/string/firstUniqueCharacter.cpp)
 
 
 ## Leetcode
@@ -243,7 +266,4 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Random data
     * [Random String](others/dynamic-programming/RandomString.java) Random strings
     * [Random 2D Matrix](others/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
-
-
-# TODO (add)
 
