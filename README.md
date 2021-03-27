@@ -188,6 +188,9 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * GaussElimination : Gauss elimination or Gauss Jordan method to solve system of linear equations [Java](problems/math/GaussElimination.java)
 * Point2D : Data structure to represent point in 2D space [Java](problems/math/Point2D.java)
 * Point3D : Data structure to represent point in 3D space [Java](problems/math/Point3D.java)
+* Generate Nth row of Pascal triangle
+    * Recursive [C++](problems/math/PascalTriangle.cpp)
+    * Iterative [C++](problems/math/PascalTriangle.cpp)
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
