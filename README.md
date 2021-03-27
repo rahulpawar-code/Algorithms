@@ -9,8 +9,6 @@
 
 # [System Design Questions](System-Design-Questions/)
 Large scale system design and object oriented design questions and topics
-
-## Index
 1. Keywords To Remember
 2. Infrastructure Design Questions
 3. System Design Questions
@@ -52,10 +50,12 @@ Short sample program to demonstrate C++ language basics
 
 
 # Reading-References
-
-* **Prefix Hash tree** - https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf - Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables
-* **Distributed Hash table** - https://en.wikipedia.org/wiki/Distributed_hash_table
-* **Suffix tree** https://en.wikipedia.org/wiki/Suffix_tree Compressed Trie, used in pattern searching, hard algo
+* **Prefix Hash tree**
+    * Prefix Hash Tree: An Indexing Data Structure over Distributed Hash Tables https://www.eecs.berkeley.edu/~sylvia/papers/pht.pdf -
+* **Distributed Hash table**
+    * - https://en.wikipedia.org/wiki/Distributed_hash_table
+* **Suffix tree**
+    * Compressed Trie, used in pattern searching, hard algo https://en.wikipedia.org/wiki/Suffix_tree
 
 
 # Algorithms and Data Structures
@@ -78,28 +78,28 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Alternating Split [Java](problems/linked-list/AlternatingSplit.java)
 
 ## Stack
-* Dynamic Stack [Java generic](problems/stack/DynamicStack.java)
-* StackOfStrings [Java generic](problems/stack/StackOfStrings.java)
+* Dynamic Stack [Java](problems/stack/DynamicStack.java)
+* StackOfStrings [Java](problems/stack/StackOfStrings.java)
 
 ## Queue
-* CircularQueue [Java generic](problems/queue/CircularQueue.java)
-* LinkedQueue [Java generic](problems/queue/LinkedQueue.java)
-* Deque [Java generic](problems/queue/Deque.java)
-* RandomizedQueue [Java generic](problems/queue/RandomizedQueue.java)
+* CircularQueue [Java](problems/queue/CircularQueue.java)
+* LinkedQueue [Java](problems/queue/LinkedQueue.java)
+* Deque [Java](problems/queue/Deque.java)
+* RandomizedQueue [Java](problems/queue/RandomizedQueue.java)
 
 ## Priority Queue and Heap
-* Max Queue [Java generic](problems/priority-queue/MaxQueue.java)
-* Min Queue [Java generic](problems/priority-queue/MinQueue.java)
+* Max Queue [Java](problems/priority-queue/MaxQueue.java)
+* Min Queue [Java](problems/priority-queue/MinQueue.java)
 
 ## Symbol table and Search Trees
-* Binary Search Tree [Java generic](problems/symbol-table/BST.java)
-* Interval Search Tree [Java generic](problems/symbol-table/IntervalST.java)
+* Binary Search Tree [Java](problems/symbol-table/BST.java)
+* Interval Search Tree [Java](problems/symbol-table/IntervalST.java)
 
 ## Union Find
-* Quick Find [Java generic](problems/union-find/QuickFind.java)
-* Quick Union [Java generic](problems/union-find/QuickUnion.java)
-* Weighted Quick Union [Java generic](problems/union-find/WeightedQuickUnion.java)
-* Weighted Quick Union with Path compression [Java generic](problems/union-find/QuickUnionPathCompression.java)
+* Quick Find [Java](problems/union-find/QuickFind.java)
+* Quick Union [Java](problems/union-find/QuickUnion.java)
+* Weighted Quick Union [Java](problems/union-find/WeightedQuickUnion.java)
+* Weighted Quick Union with Path compression [Java](problems/union-find/QuickUnionPathCompression.java)
 * Percolation Problem [Java](problems/union-find/percolation)
 
 ## Graph
@@ -109,13 +109,20 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Parse decimal, hexdecimal, octal from a file and output to another. [C++](problems/string/ParseDecHexOctal.cpp)
 * Check if two strings are isomorphic. [C++](problems/string/IsomorphicStrings.cpp)
 * Find first unique character in a string. [C++](problems/string/firstUniqueCharacter.cpp)
-* String sorting [Java](problems/string/SortStringUsingTrie.java) Using trie data structure
-* Auto Completion search [Java](problems/string/AutoComplete.java) Using trie
-* English word meaning dictionary [Java](problems/string/WordMeaningDictionary.java) Using trie
-* Longest Common Prefix [Java](problems/string/LongestCommonPrefix.java) Using trie
-* Pattern Searching [Java](problems/string/PatternSearchingTrie.java) Using trie of all suffix
-* Word Break problem [Java](problems/string/WordBreak.java) Using trie, recursive algorithm
-* KMP Pattern searching [Java](problems/string/KMP.java) Search pattern in text
+* String sorting
+    * Using trie data structure [Java](problems/string/SortStringUsingTrie.java)
+* Auto Completion search
+    * Using trie [Java](problems/string/AutoComplete.java)
+* English word meaning dictionary
+    * Using trie [Java](problems/string/WordMeaningDictionary.java)
+* Longest Common Prefix
+    * Using trie [Java](problems/string/LongestCommonPrefix.java)
+* Pattern Searching
+    * Using trie of all suffix [Java](problems/string/PatternSearchingTrie.java)
+* Word Break problem
+    * Using trie, recursive algorithm [Java](problems/string/WordBreak.java)
+* KMP Pattern searching
+    * Search pattern in text [Java](problems/string/KMP.java)
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
@@ -138,17 +145,22 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
 
 ## Dynamic Programming
-* Word Break problem [Java](problems/string/WordBreak.java) recursive algorithm, using trie
-* Longest Common Subsequence [Java](problems/dynamic-programming/LongestCommonSubsequence.java) Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings
+* Word Break problem
+    * Recursive algorithm, using trie [Java](problems/string/WordBreak.java)
+* Longest Common Subsequence
+    * Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings [Java](problems/dynamic-programming/LongestCommonSubsequence.java)
 * Shortest Common Supersequence
     * Using DP [Java](problems/dynamic-programming/ShortestSupersequenceDP.java)
     * Using LCS [Java](problems/dynamic-programming/Shortestsuperseequence.java)
-* Longest Common Substring [Java](problems/dynamic-programming/LongestCommonSubstring.java) Recursive, bottom-up, space optimized, print substring, without repeating characters
-* Longest Common Substring in array [Java](problems/dynamic-programming/StemInStringArray.java) Stem in an array of strings
-* Subsequence variants: Repeated Subsequence [Java](problems/dynamic-programming/RepeatedSubsequence.java) top-down, naive recursion, print sequence
+* Longest Common Substring
+    * Recursive, bottom-up, space optimized, print substring, without repeating characters [Java](problems/dynamic-programming/LongestCommonSubstring.java)
+* Longest Common Substring in array
+    * Stem in an array of strings [Java](problems/dynamic-programming/StemInStringArray.java)
+* Subsequence variants: Repeated Subsequence
+    * top-down, naive recursion, print sequence  [Java](problems/dynamic-programming/RepeatedSubsequence.java)
 * Levenshtein distance / Edit Distance [Java](problems/dynamic-programming/EditDistance.java)
 * Largest sqaure submatrix of 1s [Java](problems/dynamic-programming/LargestSquareSubmatrix.java)
-* Min cost path from top right to bottom down in matrix](other/dynamic-programming/MatrixMinCost.java)
+* Min cost path from top right to bottom down in matrix [Java](problems/dynamic-programming/MatrixMinCost.java)
 * Maximum value of expression [Java](problems/dynamic-programming/MaxValueOfExpression.java)
 * Subset sum partition [Java](problems/dynamic-programming/Partition.java)
 * Three Partition [Java](problems/dynamic-programming/ThreePartition.java)
@@ -172,11 +184,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 
 ## Maths, Stats, Ordered Stats
 * kth element, Quick Select [Java](problems/sorting/QuickSelect.java)
-* Shuffling [Java](problems/sorting/Shuffling.java)
-    * [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle)
-* GaussElimination [Java](problems/math/GaussElimination.java) Gauss elimination or Gauss Jordan method to solve system of linear equations
-* Point2D [Java](problems/math/Point2D.java) Data structure to represent point in 2D space
-* Point3D [Java](problems/math/Point3D.java) Data structure to represent point in 3D space
+* Shuffling : using [Fisher–Yates shuffle algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle) &nbsp; &nbsp; [Java](problems/sorting/Shuffling.java)
+* GaussElimination : Gauss elimination or Gauss Jordan method to solve system of linear equations [Java](problems/math/GaussElimination.java)
+* Point2D : Data structure to represent point in 2D space [Java](problems/math/Point2D.java)
+* Point3D : Data structure to represent point in 3D space [Java](problems/math/Point3D.java)
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
@@ -197,78 +208,115 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Bit Twiddling Hacks [collection](https://graphics.stanford.edu/~seander/bithacks.html)
 
 ## Computational Geometry
-* Closest pair of points [Java](others/math/ClosestPairPoint.java) Divide and conquer algorithm
+* Closest pair of points : Divide and conquer algorithm [Java](others/math/ClosestPairPoint.java)
 * Collinear points [Java](others/math/CollinearPoints.java)
-* Group points which are at distance less than k [Java](others/math/GroupPoints) brute force algorithm
-* Group points which are at distance less than k [Java](others/math/GroupPoint2.java) divide and conquer algorithm
+* Group points which are at distance less than k : brute force algorithm [Java](others/math/GroupPoints)
+* Group points which are at distance less than k : divide and conquer algorithm [Java](others/math/GroupPoint2.java)
 
 ## Random data generation
-* Random String [Java](problems/dynamic-programming/RandomString.java) Random strings
-* Random 2D Matrix [Java](problems/dynamic-programming/Random2DMatrix.java) Random 2D boolean, binary or integer matrix
+* Random String : generate random string [Java](problems/dynamic-programming/RandomString.java)
+* Random 2D Matrix : generate random 2D boolean, binary or integer matrix [Java](problems/dynamic-programming/Random2DMatrix.java)
 
 ## Other data structures
-* Activity/Task [Java](problems/greedy/Activity.java) representation of an activity or a task
+* Activity/Task : representation of an activity or a task [Java](problems/greedy/Activity.java)
 
 ## Leetcode
-| String | Link | Java  | C++|
-|:--|:--|:--|:--|
-| Reverse String | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/) | [ReverseString.java](sites/leetcode/ReverseString.java) | [ReverseString.cpp](sites/leetcode/ReverseString.cpp) |
-| Reverse Integer |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/) | ? | [ReverseInteger.cpp](sites/leetcode/ReverseInteger.cpp)  |
-| First unique character in a string |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/) | ? | [FirstUniqueCharacter.cpp](sites/leetcode/FirstUniqueCharacter.cpp) |
-| Valid anagram | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882) | ? | [ValidAnagram.cpp](sites/leetcode/ValidAnagram.cpp) |
-| Valid palindrome |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823) | ? | [ValidPalindrome.cpp](sites/leetcode/ValidPalindrome.cpp) |
-| Longest Common Prefix |  [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/887/) | ? | [Brute Force 1](sites/leetcode/LongestCommonPrefixMethod1.cpp) <br/> [Brute Force 2](sites/leetcode/LongestCommonPrefixMethod2.cpp) <br/> [Using Trie](sites/leetcode/LongestCommonPrefixMethod3.cpp) |
 
-<br/>
+### Maths
+* Top K frequent elements &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/)
+    * Using hashmap and sorting [C++](sites/leetcode/FrequentElements.cpp)
+    * Using hashmap and priority queue [C++](sites/leetcode/FrequentElements.cpp)
+    * Using Quick Select [C++](sites/leetcode/FrequentElementsQuickSelect.cpp)
 
-| Singly Linked List| Link | Java  | C++|
-|:--|:--|:--|:--|
-| Delete Node (without previous) | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
-| Remove Nth from end | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/) | ? | [Simple Delete](sites/leetcode/LinkedList.cpp) |
-| Reverse a linked list | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/) | ? | [Iterative](sites/leetcode/ReverseList.cpp) <br/> [Recursive](sites/leetcode/ReverseList.cpp)|
-| Merge two sorted | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/) | ? | [Simple](sites/leetcode/MergeSortedList.cpp) |
-| Palindrome List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/) | ? | [Double Reverse](sites/leetcode/PalindromeList.cpp) |
-| Cycle in Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/) | ? | [Slow and fast pointer](sites/leetcode/LinkedListCycle.cpp) |
-| Sum two numbers | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/783/)  | ? | [Link](sites/leetcode/SumTwoNumbers.cpp)  |
-| Odd Even Linked List | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/)  | ? | [Link](sites/leetcode/OddEvenList.cpp)  |
-| Intersection of Two Linked Lists | [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/785/)  | ? | [Difference of Lengths](sites/leetcode/ListIntersection.cpp) <br/> [Traversal Pointer reassignment](sites/leetcode/ListIntersection.cpp) |
+### String
+* Reverse String &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/879/)
+    * [Java](sites/leetcode/ReverseString.java)
+    * [C++](sites/leetcode/ReverseString.cpp)
+* Reverse Integer &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/880/)
+    * [C++](sites/leetcode/ReverseInteger.cpp)
+* First unique character in a string &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/881/)
+    * [C++](sites/leetcode/FirstUniqueCharacter.cpp)
+* Valid anagram &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/882)
+    * [C++](sites/leetcode/ValidAnagram.cpp)
+* Valid palindrome &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/8823)
+    * [C++](sites/leetcode/ValidPalindrome.cpp)
+* Longest Common Prefix &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/strings/887/)
+    * Brute Force 1 [C++](sites/leetcode/LongestCommonPrefixMethod1.cpp)
+    * Brute Force 2 [C++](sites/leetcode/LongestCommonPrefixMethod2.cpp)
+    * Using Trie [C++](sites/leetcode/LongestCommonPrefixMethod3.cpp)
 
-<br/>
+### Singly Linked List
+* Delete Node (without previous) &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/553/)
+    * Simple Delete [C++](sites/leetcode/LinkedList.cpp)
+* Remove Nth from end &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/603/)
+    * Simple Delete [C++](sites/leetcode/LinkedList.cpp)
+* Reverse a linked list &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/560/)
+    * Iterative [C++](sites/leetcode/ReverseList.cpp)
+    * Recursive [C++](sites/leetcode/ReverseList.cpp)
+* Merge two sorted &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/771/)
+    * Simple [C++](sites/leetcode/MergeSortedList.cpp)
+* Palindrome List &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/772/)
+    * Double Reverse [C++](sites/leetcode/PalindromeList.cpp)
+* Cycle in Linked List &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/93/linked-list/773/)
+    * Slow and fast pointer [C++](sites/leetcode/LinkedListCycle.cpp)
+* Sum two numbers &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/783/)
+    * [C++](sites/leetcode/SumTwoNumbers.cpp)
+* Odd Even Linked List &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/784/)
+    * [C++](sites/leetcode/OddEvenList.cpp)
+* Intersection of Two Linked Lists &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/107/linked-list/785/)
+    * Difference of Lengths [C++](sites/leetcode/ListIntersection.cpp)
+    * Traversal Pointer reassignment [C++](sites/leetcode/ListIntersection.cpp)
 
-| Binary Tree | Link | Java  | C++|
-|:--|:--|:--|:--|
-| Max depth | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/) | ? | [Max Depth]((sites/leetcode/BinaryTree.cpp)) |
-| Validate Binary search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/) | ? | [Validate BST](sites/leetcode/BinaryTree.cpp) |
-| Symmeric Binary Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/) | ? | [Iterative](sites/leetcode/SymmetricBinaryTree.cpp) <br/> [Recursive](sites/leetcode/SymmetricBinaryTree.cpp) |
-| Level Order Of Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/)  | ? | [Using queue](sites/leetcode/BinaryTreeTraversals.cpp)  |
-| Sorted Array to Binary Search Tree | [link](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/)  | ? | [Recursive](sites/leetcode/SortedArratToBST.cpp)  |
-| Inorder traversal| [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/786/) | ? | [Iterative using stack](sites/leetcode/BinaryTreeTraversals.cpp) <br\> [Recursive](sites/leetcode/BinaryTreeTraversals.cpp) |
-| Zigzag/spiral level order traversal| [link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/787/) | ? | [Link](sites/leetcode/BinaryTreeTraversals.cpp) |
-| Construct Binary Tree from Preorder and Inorder Traversal | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/788/) | ? | [Link](sites/leetcode/ConstructBinaryTree.cpp) |
-|Populating Next Right Pointers in Each Node| [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/789/) | ? | [Iterative level order](sites/leetcode/RightPointer.cpp) <br/> [Using queue](sites/leetcode/RightPointer.cpp) |
-| Kth Smallest Element in a BST | [Link](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/) | ? | [Iterative using stack](sites/leetcode/KthSmallestBinarySearchTree.cpp) <br/> [Recursive](sites/leetcode/KthSmallestBinarySearchTree.cpp) |
-| Kth Largest Element in a BST | ?? | ? | [Iterative using stack](sites/leetcode/KthLargestBinarySearchTree.cpp) <br/> [Recursive](sites/leetcode/KthLargestBinarySearchTree.cpp) |
-| Number of Islands | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/792/) | ? | [Using DFS](sites/leetcode/NumberofIslands.cpp) <br/> [Using BFS](sites/leetcode/NumberofIslands.cpp) <br/> [Using disjoint set](sites/leetcode/NumberofIslandsDisjointSet.cpp) |
+### Binary Tree
+* Max depth &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/555/)
+    * Max Depth [C++](sites/leetcode/BinaryTree.cpp)
+* Validate Binary search Tree &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/625/)
+    * Validate BST [C++](sites/leetcode/BinaryTree.cpp)
+* Symmeric Binary Tree &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/627/)
+    * Iterative [C++](sites/leetcode/SymmetricBinaryTree.cpp)
+    * Recursive [C++](sites/leetcode/SymmetricBinaryTree.cpp)
+* Level Order Of Tree &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/628/)
+    * Using queue [C++](sites/leetcode/BinaryTreeTraversals.cpp)
+* Sorted Array to Binary Search Tree &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-easy/94/trees/631/)
+    * Recursive [C++](sites/leetcode/SortedArratToBST.cpp)
+* Inorder traversal &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/786/)
+    * Iterative using stack [C++](sites/leetcode/BinaryTreeTraversals.cpp)
+    * Recursive [C++](sites/leetcode/BinaryTreeTraversals.cpp)
+* Zigzag/spiral level order traversal &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/787/)
+    * [C++](sites/leetcode/BinaryTreeTraversals.cpp)
+* Construct Binary Tree from Preorder and Inorder Traversal &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/788/)
+    * [C++](sites/leetcode/ConstructBinaryTree.cpp)
+* Populating Next Right Pointers in Each Node [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/789/)
+    * Iterative level order [C++](sites/leetcode/RightPointer.cpp)
+    * Using queue [C++](sites/leetcode/RightPointer.cpp)
+* Kth Smallest Element in a BST &nbsp; &nbsp; [Problem](https://leetcode.com/problems/kth-smallest-element-in-a-bst/solution/)
+    * Iterative using stack [C++](sites/leetcode/KthSmallestBinarySearchTree.cpp)
+    * Recursive [C++](sites/leetcode/KthSmallestBinarySearchTree.cpp)
+* Kth Largest Element in a BST | ?? | ? |
+    * Iterative using stack [C++](sites/leetcode/KthLargestBinarySearchTree.cpp)
+    * Recursive [C++](sites/leetcode/KthLargestBinarySearchTree.cpp)
+* Number of Islands &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/108/trees-and-graphs/792/)
+    * Using DFS [C++](sites/leetcode/NumberofIslands.cpp)
+    * Using BFS [C++](sites/leetcode/NumberofIslands.cpp)
+    * Using disjoint set [C++](sites/leetcode/NumberofIslandsDisjointSet.cpp)
 
-| Permutations | Link | Java  | C++|
-|:--|:--|:--|:--|
-| Letter Combinations of a Phone Number | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/) | ? | [Iterative](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) <br/> [Recursive](sites/leetcode/LetterCombinationOfPhoneNumber.cpp) |
-| Generate Balanced Parentheses | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/794/) | ? | [Recursive](sites/leetcode/GenerateParentheses.cpp) |
+### Permutations
+* Letter Combinations of a Phone Number &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/793/)
+    * Iterative [C++](sites/leetcode/LetterCombinationOfPhoneNumber.cpp)
+    * Recursive [C++](sites/leetcode/LetterCombinationOfPhoneNumber.cpp)
+* Generate Balanced Parentheses &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/794/)
+    * Recursive [C++](sites/leetcode/GenerateParentheses.cpp)
 
-| Backtracking | Link | Java  | C++|
-|:--|:--|:--|:--|
-| Permutations | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/795/) | ? | [Backtracking](sites/leetcode/Permutations.cpp) |
-| Subset | [Link](https://leetcode.com/problems/subsets/) | ? | [Backtracking](sites/leetcode/Subsets.cpp) |
-| Subset without duplicates | [Link](https://leetcode.com/problems/subsets-ii/) | ? | [Backtracking](sites/leetcode/Subsets.cpp) |
-| Combination Sum | [Link](https://leetcode.com/problems/combination-sum/) | ? | [Backtracking](sites/leetcode/CombinationSum.cpp) |
-| Combination Sum without duplicates | [Link](https://leetcode.com/problems/combination-sum-ii/) | ? | [Backtracking](sites/leetcode/CombinationSum.cpp) |
-| Word Search | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/797/) | ? | Not working [Recursive DFS](sites/leetcode/WordSearch.cpp) <br/>  |
-
-| Maths | Link | Java  | C++|
-|:--|:--|:--|:--|
-| Top K frequent elements | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/) | ? | [Using hashmap and sorting](sites/leetcode/FrequentElements.cpp) <br/> [Using hashmap and priority queue](sites/leetcode/FrequentElements.cpp) <br/> [Using Quick Select](sites/leetcode/FrequentElementsQuickSelect.cpp) |
-|  | [Link]() | ? | []() |
-<br/>
-
-
-
+### Backtracking
+* Permutations &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/795/)
+    * Backtracking [C++](sites/leetcode/Permutations.cpp)
+* Subset &nbsp; &nbsp; [Problem](https://leetcode.com/problems/subsets/)
+    * Backtracking [C++](sites/leetcode/Subsets.cpp)
+* Subset without duplicates &nbsp; &nbsp; [Problem](https://leetcode.com/problems/subsets-ii/)
+    * Backtracking [C++](sites/leetcode/Subsets.cpp)
+* Combination Sum &nbsp; &nbsp; [Problem](https://leetcode.com/problems/combination-sum/)
+    * Backtracking [C++](sites/leetcode/CombinationSum.cpp)
+* Combination Sum without duplicates &nbsp; &nbsp; [Problem](https://leetcode.com/problems/combination-sum-ii/)
+    * Backtracking [C++](sites/leetcode/CombinationSum.cpp)
+* Word Search | [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/797/)
+    * Not working, Recursive DFS [C++](sites/leetcode/WordSearch.cpp)
