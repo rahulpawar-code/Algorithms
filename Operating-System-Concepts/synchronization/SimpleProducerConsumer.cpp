@@ -23,7 +23,7 @@ void consumeData(int data)
     std::cout << "[CONSUMER] : consumed data : " << data << "\n";
 }
 
-void producerFunc()
+void consumerFunc()
 {
     while (true) {
         while (!g_ready) {
@@ -35,7 +35,7 @@ void producerFunc()
     }
 }
 
-void consumerFunc()
+void producerFunc()
 {
     while (true) {
         std::unique_lock<std::mutex> ul(g_mutex);

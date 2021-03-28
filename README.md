@@ -39,9 +39,9 @@ Short sample program to demonstrate C++ language basics
 
 
 # [Operating System Concepts](Operating-System-Concepts/)
-* Concurrency
-    * Simple producer consumer with busy wait [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumer.cpp)
-    * Simple producer consumer with **condition variable** [Link](Operating-System-Concepts/concurrency/SimpleProducerConsumerCond.cpp)
+* Synchronization
+    * Simple producer consumer with busy wait, mutex in C++ [Link](Operating-System-Concepts/synchronization/SimpleProducerConsumer.cpp)
+    * Simple producer consumer with **condition variable**, condition variable in C++ [Link](Operating-System-Concepts/synchronization/SimpleProducerConsumerCond.cpp)
 * File IO
     * Print all lines which contain a given pattern [Link](Operating-System-Concepts/fileio/SearchPatternInFile.cpp)
 * Memory Management

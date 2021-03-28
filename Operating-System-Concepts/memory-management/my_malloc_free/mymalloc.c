@@ -4,7 +4,6 @@
 #include <stddef.h>
 #include "mymalloc.h"
 
-
 char memory[MAX_MEMSIZE];
 
 struct block* freeList = (void *)memory;
@@ -64,7 +63,6 @@ void* myMalloc(size_t bytes)
         return result;
     }
 }
-
 
 void merge()
 {

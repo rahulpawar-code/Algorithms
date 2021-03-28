@@ -8,8 +8,6 @@
 
 #define MAX_MEMSIZE 20000
 
-
-
 typedef struct block
 {
     size_t size;
@@ -26,6 +24,5 @@ void split(struct block *fitting, size_t bytes);
 void merge();
 
 void myFree(void* ptr);
-
 
 #endif

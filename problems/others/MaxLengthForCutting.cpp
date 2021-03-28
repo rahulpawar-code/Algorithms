@@ -4,9 +4,7 @@
 #include <algorithm>
 #include <vector>
 
-
-bool isValid(std::vector<int>& wood, const int K,
-                const int len)
+bool isValid(std::vector<int>& wood, const int K, const int len)
 {
     int count = 0;
 
@@ -26,7 +24,6 @@ int findMaxLengthCut(std::vector<int>& wood, int K)
     int left = 1;
     int right = *max_element(wood.begin(), wood.end());
 
-
     while (left <= right) {
         int mid = left + (right - left) / 2;
 
@@ -36,7 +33,6 @@ int findMaxLengthCut(std::vector<int>& wood, int K)
             right = mid - 1;
         }
     }
-
 
     return left;
 }

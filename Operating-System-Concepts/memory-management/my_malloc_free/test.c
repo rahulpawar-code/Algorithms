@@ -5,7 +5,6 @@
 gcc -I$(pwd) mymalloc.c test.c
 */
 
-
 #include <stdio.h>
 #include "mymalloc.h"
 

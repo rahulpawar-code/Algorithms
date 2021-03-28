@@ -4,7 +4,6 @@
 #include <queue>
 #include <vector>
 
-
 class Node
 {
 public:
@@ -53,7 +52,7 @@ std::vector<int> mergeSheet(std::vector<std::vector<int>>& transactions)
         maxq.push(node);
     }
 
-    while(!maxq.empty()) {
+    while (!maxq.empty()) {
         Node current = maxq.top();
         maxq.pop();
 
@@ -70,7 +69,6 @@ std::vector<int> mergeSheet(std::vector<std::vector<int>>& transactions)
     }
 
     return merged;
-
 }
 
 int main()
