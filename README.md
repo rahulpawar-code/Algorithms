@@ -49,7 +49,7 @@ Short sample program to demonstrate C++ language basics
     * Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
 * Hash table implementation
     * Implement elementary hash table in C++ [Link](Operating-System-Concepts/hash-table/HashTableElementary.cpp)
-    * Hash table implementation in C++ using STL [Inspiration](https://aozturk.medium.com/simple-hash-map-hash-table-implementation-in-c-931965904250) &nbsp; [Link](Operating-System-Concepts/hash-table/HashTableElementary.cpp)
+    * Hash table implementation in C++ using STL [Inspiration](https://aozturk.medium.com/simple-hash-map-hash-table-implementation-in-c-931965904250) &nbsp; [Link](Operating-System-Concepts/hash-table/hash-table-using-stl)
 
 # Reading-References
 * **Prefix Hash tree**
