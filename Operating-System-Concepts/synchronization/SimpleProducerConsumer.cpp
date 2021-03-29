@@ -7,9 +7,9 @@
 #include <thread>
 
 std::mutex g_mutex;
+
 bool g_ready = false;
 int g_data = 0;
-
 
 int producerData()
 {

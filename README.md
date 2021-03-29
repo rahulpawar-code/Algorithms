@@ -47,6 +47,8 @@ Short sample program to demonstrate C++ language basics
 * Memory Management
     * Implement aligned **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/aligned_malloc_free/)
     * Implement **malloc()** and **free()** [Link](Operating-System-Concepts/memory-management/my_malloc_free/)
+* Hash tble implementation
+    * Implement elementary hash table in C++ [Link](Operating-System-Concepts/hash-table/HashTableElementary.cpp)
 
 
 # Reading-References
