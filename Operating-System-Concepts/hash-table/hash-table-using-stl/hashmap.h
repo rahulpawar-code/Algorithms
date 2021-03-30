@@ -34,7 +34,6 @@ public:
     {
         unsigned long hash = hashFunc(key, tableSize);
 
-        std::cout << key << " , " << value << " , " << hash << "\n";
         for (auto node : table[hash]) {
             if (node.getKey() == key) {
                 // key already present in map. Simply overwrite value
@@ -53,13 +52,13 @@ public:
         unsigned long hash = hashFunc(key, tableSize);
 
         if (table[hash].size() == 1) {
+            // if table has only one key-value pair then reset the vector
             if (table[hash][0].getKey() == key) {
                 table[hash].clear();
             }
         } else {
             for (auto it = table[hash].begin(); it != table[hash].end(); ++it) {
                 if ((*it).getKey() == key) {
-                    // if table has only one key-value pair then reset the vector
                     it = table[hash].erase(it);
                 }
             }

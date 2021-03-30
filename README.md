@@ -58,6 +58,8 @@ Short sample program to demonstrate C++ language basics
     * - https://en.wikipedia.org/wiki/Distributed_hash_table
 * **Suffix tree**
     * Compressed Trie, used in pattern searching, hard algo https://en.wikipedia.org/wiki/Suffix_tree
+* **Hash Functions**
+    * [djb2](http://www.cse.yorku.ca/~oz/hash.html)
 
 
 # Algorithms and Data Structures
