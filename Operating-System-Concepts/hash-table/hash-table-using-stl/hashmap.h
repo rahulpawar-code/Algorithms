@@ -10,20 +10,20 @@
 #include <iostream>
 #include <cstddef>
 
-template<typename K, std::size_t size>
+template<typename K>
 struct KeyHash
 {
-    unsigned long operator() (const K& key)
+    unsigned long operator() (const K& key, size_t tableSize)
     {
-        return reinterpret_cast<unsigned long>(key) % size;
+        return reinterpret_cast<unsigned long>(key) % tableSize;
     }
 };
 
-template<typename K, typename V, std::size_t size = 1024, typename F = KeyHash<K, size>>
+template<typename K, typename V, std::size_t tableSize = 1024, typename F = KeyHash<K>>
 class HashMap
 {
 private:
-    std::array<std::vector<HashNode<K, V>>, size> table { };
+    std::array<std::vector<HashNode<K, V>>, tableSize> table { };
     F hashFunc;
 
 public:
@@ -32,8 +32,9 @@ public:
 
     void put(const K& key, const V& value)
     {
-        unsigned long hash = hashFunc(key);
+        unsigned long hash = hashFunc(key, tableSize);
 
+        std::cout << key << " , " << value << " , " << hash << "\n";
         for (auto node : table[hash]) {
             if (node.getKey() == key) {
                 // key already present in map. Simply overwrite value
@@ -49,7 +50,7 @@ public:
 
     void remove(const K& key)
     {
-        unsigned long hash = hashFunc(key);
+        unsigned long hash = hashFunc(key, tableSize);
 
         if (table[hash].size() == 1) {
             if (table[hash][0].getKey() == key) {
@@ -67,7 +68,7 @@ public:
 
     bool get(const K& key, V& value)
     {
-        unsigned long hash = hashFunc(key);
+        unsigned long hash = hashFunc(key, tableSize);
 
         for (auto node : table[hash]) {
             if (node.getKey() == key) {

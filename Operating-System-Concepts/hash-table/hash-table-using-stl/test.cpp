@@ -13,24 +13,30 @@
 #include <string>
 #include <cstddef>
 
-struct MyKeyHash {
-    unsigned long operator()(const int& k) const
+struct StringKeyHash {
+    unsigned long operator()(const std::string& key, size_t tableSize) const
     {
-        return k % 10;
+        unsigned long hash = 5381;
+
+        for (auto ch : key) {
+            hash = ((hash << 5) + hash) + static_cast<int>(ch);
+        }
+
+        return hash % tableSize;
     }
 };
 
 int main()
 {
-    HashMap<int, std::string, 10, MyKeyHash> map;
-    map.put(1, "alice");
-    map.put(2, "bob");
-    map.put(3, "charlie");
-    map.put(4, "eve");
+    HashMap<std::string, std::string, 1024, StringKeyHash> map;
+    map.put("abc", "alice");
+    map.put("xyz", "bob");
+    map.put("mno", "charlie");
+    map.put("pqr", "eve");
 
-    map.remove(4);
+    map.remove("pqr");
     std::string  value;
-    map.get(3, value);
+    map.get("abc", value);
     std::cout << value << "\n";
 
     return 0;
