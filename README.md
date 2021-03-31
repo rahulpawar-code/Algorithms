@@ -208,6 +208,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Maximum possible length by cutting N wood pieces into K pieces. [C++](problems/others/MaxLengthForCutting.cpp)
 * Merge N trasactions preserve order. [C++](problems/others/MergeTransactions.cpp)
 * Stock Buy Sell to Maximize Profit. [C++](problems/string/firstUniqueCharacter.cpp)
+* Find majority element. [Problem](https://www.techiedelight.com/find-majority-element-in-an-array-boyer-moore-majority-vote-algorithm/)
+    * Brute Force [C++](problems/others/MajorityElement.cpp)
+    * using hashmap [C++](problems/others/MajorityElement.cpp)
+    * Boyer-Moore voting algorithm [wiki article](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) [C++](problems/others/MajorityElement.cpp)
 
 ## Bit manipulation/ Bitwise hacks
 * Basics [Java](problems/bitwise/bitwise1.cpp)
