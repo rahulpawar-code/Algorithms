@@ -195,6 +195,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Generate Nth row of Pascal triangle
     * Recursive [C++](problems/math/PascalTriangle.cpp)
     * Iterative [C++](problems/math/PascalTriangle.cpp)
+* Happy number [Wiki](https://en.wikipedia.org/wiki/Happy_number) [C++](problems/math/HappyNumber.cpp)
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
