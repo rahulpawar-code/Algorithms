@@ -212,6 +212,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Brute Force [C++](problems/others/MajorityElement.cpp)
     * using hashmap [C++](problems/others/MajorityElement.cpp)
     * Boyer-Moore voting algorithm [wiki article](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) [C++](problems/others/MajorityElement.cpp)
+* CPU task scheduling [C++](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
 
 ## Bit manipulation/ Bitwise hacks
 * Basics [Java](problems/bitwise/bitwise1.cpp)
@@ -232,7 +233,6 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Activity/Task : representation of an activity or a task [Java](problems/greedy/Activity.java)
 
 ## Leetcode
-
 ### Maths
 * Top K frequent elements &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/)
     * Using hashmap and sorting [C++](sites/leetcode/FrequentElements.cpp)
