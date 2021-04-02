@@ -34,6 +34,7 @@ Large scale system design and object oriented design questions and topics
 * Firewall 
 
 ## Articles
+* Latency Numbers Every Programmer Should Know [Link](https://gist.github.com/jboner/2841832)
 * [Horizontal vs Vertical Scaling for Hardware and Databases](https://stackoverflow.com/questions/11707879/difference-between-scaling-horizontally-and-vertically-for-databases)
 
 # Infrastructure Design Questions

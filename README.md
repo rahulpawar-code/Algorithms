@@ -76,6 +76,11 @@ Short sample program to demonstrate C++ language basics
 Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) and [Part2](https://www.coursera.org/learn/algorithms-part2/)
 
 
+## Comprehensive guides/wiki/articles/solutions/summary
+* A general approach to backtracking questions (Subsets, Permutations, Combination Sum) [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/109/backtracking/795/discuss/18239/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partioning))
+* A summary: how to use bit manipulation to solve problems easily and efficiently [Link](https://leetcode.com/explore/interview/card/top-interview-questions-medium/114/others/822/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently)
+
+
 ## Linked List
 * Rearrange odd even elements in a linked list. [C++](problems/linked-list/RearrangeEvenOdd.cpp)
 * Linked List [Java](problems/linked-list/LinkedList.java)
