@@ -152,6 +152,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Bottom Up Merge (generic)  [Java](problems/sorting/MergeBU.java)
 * Quicksort (generic)  [Java](problems/sorting/Quick.java)
 * 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
+* Dutch national flag problem [C++](problems/sorting/DutchFlag.cpp)
 
 ## Dynamic Programming
 * Word Break problem
