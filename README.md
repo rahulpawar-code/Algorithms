@@ -234,8 +234,9 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Random String : generate random string [Java](problems/dynamic-programming/RandomString.java)
 * Random 2D Matrix : generate random 2D boolean, binary or integer matrix [Java](problems/dynamic-programming/Random2DMatrix.java)
 
-## Other data structures
+## Other data structures/ Implement some data structure
 * Activity/Task : representation of an activity or a task [Java](problems/greedy/Activity.java)
+* Randomized set [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/112/design/813/) [C++](problems/others/RandomizedSet.cpp)
 
 ## Leetcode
 ### Maths
