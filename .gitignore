@@ -1,8 +1,12 @@
 # Compiled class file
 *.class
 
-# a.out
+# a.out/gcov
 *a.out
+*.cpp.gcov
+*.gcda
+*.gcno
+*.c.gcov
 
 # Log file
 *.log
