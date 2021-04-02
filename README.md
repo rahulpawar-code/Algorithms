@@ -154,6 +154,9 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
 * Dutch national flag problem [C++](problems/sorting/DutchFlag.cpp)
 
+## Searching
+* Find peak element [C++]()
+
 ## Dynamic Programming
 * Word Break problem
     * Recursive algorithm, using trie [Java](problems/string/WordBreak.java)
