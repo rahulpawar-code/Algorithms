@@ -198,6 +198,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Happy number [Wiki](https://en.wikipedia.org/wiki/Happy_number) [C++](problems/math/HappyNumber.cpp)
 * Excel Sheet Column Number [C++](problems/math/SheetColumnNumber.cpp)
 * Number of zeros in facorial [C++](problems/math/FactorialTrailingZeros.cpp)
+* Implement power function [C++](problems/math/PowerFunction.cpp)
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
