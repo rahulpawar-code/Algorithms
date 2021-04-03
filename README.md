@@ -160,6 +160,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Search in rotated array [C++](problems/searching/SearchRotatedArray.cpp)
 * Search in a 2D matrix [C++](problems/searching/SearchInMatrix.cpp)
 * Find start and end of a range in a sorted array [C++](problems/searching/SearchRange.cpp)
+* Find kth largest element
+    * Using min heap [C++](problems/sorting/KthLargest.cpp)
+    * Using max heap [C++](problems/sorting/KthLargest.cpp)
+    * Using STL iterator and algorithm [C++](problems/sorting/KthLargest.cpp)
 
 ## Dynamic Programming
 * Word Break problem
