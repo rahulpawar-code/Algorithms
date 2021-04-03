@@ -158,6 +158,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 ## Searching
 * Find peak element [C++](problems/searching/PeakElement.cpp)
 * Search in rotated array [C++](problems/searching/SearchRotatedArray.cpp)
+* Search in a 2D matrix [C++](problems/searching/SearchInMatrix.cpp)
 
 ## Dynamic Programming
 * Word Break problem
