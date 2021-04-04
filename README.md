@@ -189,7 +189,9 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Three Partition [Java](problems/dynamic-programming/ThreePartition.java)
 * Rod Cutting [Java](problems/dynamic-programming/RodCutting.java)
 * Rod Cutting Product [Java](problems/dynamic-programming/RodCuttingProduct.java)
-* Coin Change [Java](problems/dynamic-programming/CoinChange.java)
+* Coin Change - Minimum number of coins
+    * [Java](problems/dynamic-programming/CoinChange.java)
+    * [C++](problems/dynamic-programming/CoinChange.cpp)
 * Coin Change Ways [Java](problems/dynamic-programming/CoinChangeWays.java)
 * Binary String with no consecutive 1s [Java](problems/dynamic-programming/BinaryStrings.java)
 * Word Break [Java](problems/dynamic-programming/WordBreak.java)
@@ -199,6 +201,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Wildcard Matching [Java](problems/dynamic-programming/WildcardMatching.java)
 * Tripping Rain Water [Java](problems/array/TrappingRainWater.java)
 * Jump Game [C++](problems/dynamic-programming/JumpGame.cpp)
+
 
 ## Greedy
 * Activity Selection [Java](problems/greedy/ActivitySelection.java)
