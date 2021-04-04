@@ -223,6 +223,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 
 ## Permutation
 * Permutation of objects [Java](problems/queue/Permutation.java)
+* Unique paths [C++](problems/math/UniquePaths.cpp)
 
 ## Encoding decoding (char, int, digits etc)
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
