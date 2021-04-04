@@ -201,7 +201,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Wildcard Matching [Java](problems/dynamic-programming/WildcardMatching.java)
 * Tripping Rain Water [Java](problems/array/TrappingRainWater.java)
 * Jump Game [C++](problems/dynamic-programming/JumpGame.cpp)
-
+* Length of Longest Increasing Subsequence [C++](problems/dynamic-programming/LongestIncreasingSubsequence.cpp)
 
 ## Greedy
 * Activity Selection [Java](problems/greedy/ActivitySelection.java)
