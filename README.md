@@ -198,6 +198,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * No of ways for dice throws [Java](problems/dynamic-programming/DiceThrows.java)
 * Wildcard Matching [Java](problems/dynamic-programming/WildcardMatching.java)
 * Tripping Rain Water [Java](problems/array/TrappingRainWater.java)
+* Jump Game [C++](problems/dynamic-programming/JumpGame.cpp)
 
 ## Greedy
 * Activity Selection [Java](problems/greedy/ActivitySelection.java)
