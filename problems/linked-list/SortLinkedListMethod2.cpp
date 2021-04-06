@@ -120,8 +120,6 @@ public:
         std::cout << "\n";
     }
 
-
-
     void mergesort()
     {
         mergesort(&head);
