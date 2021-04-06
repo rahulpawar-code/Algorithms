@@ -85,6 +85,9 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Rearrange odd even elements in a linked list. [C++](problems/linked-list/RearrangeEvenOdd.cpp)
 * Linked List [Java](problems/linked-list/LinkedList.java)
 * Alternating Split [Java](problems/linked-list/AlternatingSplit.java)
+* Sort linked list
+    * Simple method [C++](problems/linked-list/SortLinkedListMethod1.cpp)
+    * Using merge sort [C++](problems/linked-list/SortLinkedListMethod2.cpp)
 
 ## Stack
 * Dynamic Stack [Java](problems/stack/DynamicStack.java)
