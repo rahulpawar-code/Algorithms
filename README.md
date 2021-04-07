@@ -90,7 +90,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Using merge sort [C++](problems/linked-list/SortLinkedListMethod2.cpp)
 * Clone list with random pointers [C++](problems/linked-list/CloneListWithRandomPointer.cpp)
 * Linked List implementation
-    * Push, append, delete [C](problems/linked-list/LinkedList.c)
+    * Push, append, delete, pop, clone list [C](problems/linked-list/LinkedList.c)
 
 ## Stack
 * Dynamic Stack [Java](problems/stack/DynamicStack.java)

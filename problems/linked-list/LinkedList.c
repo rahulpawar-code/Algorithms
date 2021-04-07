@@ -19,6 +19,19 @@ void push(Node** head, int key)
     *head = node;
 }
 
+int pop(Node** head)
+{
+    if (*head == NULL) {
+        return -1;
+    }
+
+    Node* temp = *head;
+    int result = temp->key;
+    *head = (*head)->next;
+    free(temp);
+    return result;
+}
+
 Node* constructList(int keys[], int n)
 {
     Node* head = NULL;
@@ -50,6 +63,22 @@ void deleteList(Node** head)
     }
 }
 
+Node* cloneList(Node* head)
+{
+    Node* current = head;
+    Node dummy;
+    Node* tail = &dummy;
+    dummy.next = NULL;
+
+    while (current != NULL) {
+        push(&(tail->next), current->key);
+        tail = tail->next;
+        current = current->next;
+    }
+
+    return dummy.next;
+}
+
 void printList(Node* node)
 {
     Node* current = node;
@@ -73,11 +102,21 @@ int main()
     Node* head2 = constructListAppend(keys, n);
     printList(head2);
 
+    printf("Cloning list 1\n");
+    Node* cloneList1 = cloneList(head);
+    printf("Cloned list:\n");
+    printList(cloneList1);
+
+
+    printf("Pop from list 1: %d\n", pop(&head));
+
     printf("Deleting list1 and list2\n");
     deleteList(&head);
     deleteList(&head2);
     printList(head);
     printList(head2);
+
+    delete(cloneList1);
 
     return 0;
 }
