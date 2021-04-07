@@ -40,6 +40,16 @@ Node* constructListAppend(int keys[], int n)
     return dummy.next;
 }
 
+void deleteList(Node** head)
+{
+    Node* prev = *head;
+    while (*head != NULL) {
+        *head = (*head)->next;
+        free(prev);
+        prev = *head;
+    }
+}
+
 void printList(Node* node)
 {
     Node* current = node;
@@ -52,7 +62,7 @@ void printList(Node* node)
 
 int main()
 {
-    int keys[] = {1, 2, 3, 4, 5};
+    int keys[] = {1, 2, 3, 4, 5, 6};
     int n = sizeof(keys) / sizeof(keys[0]);
 
     printf("Constructing list in push mode\n");
@@ -61,6 +71,12 @@ int main()
 
     printf("Constructing list in append mode\n");
     Node* head2 = constructListAppend(keys, n);
+    printList(head2);
+
+    printf("Deleting list1 and list2\n");
+    deleteList(&head);
+    deleteList(&head2);
+    printList(head);
     printList(head2);
 
     return 0;
