@@ -176,6 +176,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Using max heap [C++](problems/sorting/KthLargest.cpp)
     * Using STL iterator and algorithm [C++](problems/sorting/KthLargest.cpp)
     * Using quick select algorithm [C++](problems/sorting/QuickSelect.cpp)
+* Binary Search
+    * Iterative [C++](problems/searching/BinarySearch.cpp)
+    * Recursive [C++](problems/searching/BinarySearch.cpp)
+    * C++ STL [C++](problems/searching/BinarySearch.cpp)
 
 ## Dynamic Programming
 * Word Break problem
