@@ -155,10 +155,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * 8 Puzzle [Java](problems/matrices/8-puzzle/)
 
 ## Sorting
-* Insertion sort. (generic)  [Java](problems/sorting/Insertion.java)
+* Insertion sort (generic)  [Java](problems/sorting/Insertion.java)
 * Selection sort (generic)  [Java](problems/sorting/Selection.java)
 * Shell sort (generic)  [Java](problems/sorting/Shell.java)
-* Merge (generic)  [Java](problems/sorting/Merge.java)
+* Merge sort (generic)  [Java](problems/sorting/Merge.java) [C++](problems/sorting/MergeSort.cpp)
 * Bottom Up Merge (generic)  [Java](problems/sorting/MergeBU.java)
 * Quicksort (generic)  [Java](problems/sorting/Quick.java)
 * 3-way Quicksort (generic)  [Java](problems/sorting/Quick3Way.java)
