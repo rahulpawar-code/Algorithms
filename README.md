@@ -186,6 +186,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Recursive algorithm, using trie [Java](problems/string/WordBreak.java)
 * Longest Common Subsequence
     * Naive, top-down, bottom up tabulation, LCS string, LCS of 3 strings [Java](problems/dynamic-programming/LongestCommonSubsequence.java)
+    * Naive recursion, top-down memoization, space optimized, bottom up tabulation [C++](problems/dynamic-programming/LongestCommonSubsequence.cpp)
 * Shortest Common Supersequence
     * Using DP [Java](problems/dynamic-programming/ShortestSupersequenceDP.java)
     * Using LCS [Java](problems/dynamic-programming/Shortestsuperseequence.java)
