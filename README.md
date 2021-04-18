@@ -111,7 +111,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Recursive Preorder, inorder, postorder, height, diameter [C++](problems/binary-tree/BasicTree.cpp)
 
 ## Symbol table and Search Trees
-* Binary Search Tree [Java](problems/symbol-table/BST.java)
+* Binary Search Tree
+    * [Java](problems/symbol-table/BST.java)
+    * Recursive insert, search, construct balanced tree [C++](problems/symbol-table/BSTRecursive.java)
+    * Iterative insert, search [C++](problems/symbol-table/BSTIterative.java)
 * Interval Search Tree [Java](problems/symbol-table/IntervalST.java)
 
 ## Union Find
