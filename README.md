@@ -126,6 +126,8 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 
 ## Graph
 * Find the celebrity in room. [C++](problems/graph/CelebrityProblem1.cpp)
+* Graph
+    * Representation using STL, BFS, DFS [C++](problems/graph/Graph.cpp)
 
 ## String
 * Parse decimal, hexdecimal, octal from a file and output to another. [C++](problems/string/ParseDecHexOctal.cpp)
