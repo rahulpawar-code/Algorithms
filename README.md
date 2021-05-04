@@ -36,6 +36,8 @@ Short sample program to demonstrate C++ language basics
 * move semantics
 * move constructor
 * move assignment
+* enums & enum class
+* Random numbers
 
 
 # [Operating System Concepts](Operating-System-Concepts/)
