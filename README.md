@@ -285,6 +285,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Randomized set [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/112/design/813/) [C++](problems/others/RandomizedSet.cpp)
 
 ## Leetcode
+### Array
+* Running sum &nbsp; [Problem](https://leetcode.com/problems/running-sum-of-1d-array/)
+    * using loop, using partial sum, using accumulate [C++](sites/leetcode/RunningSum.cpp)
+
 ### Maths
 * Top K frequent elements &nbsp; &nbsp; [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/110/sorting-and-searching/799/)
     * Using hashmap and sorting [C++](sites/leetcode/FrequentElements.cpp)
