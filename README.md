@@ -119,7 +119,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * [Java](problems/symbol-table/BST.java)
     * Recursive insert, search, construct balanced tree [C++](problems/symbol-table/BSTRecursive.java)
     * Iterative insert, search [C++](problems/symbol-table/BSTIterative.java)
-* Interval Search Tree [Java](problems/symbol-table/IntervalST.java)
+* Interval Search Tree [Java](problems/symbol-table/IntervalST.java) [C++](problems/symbol-table/IntervalTree.cpp)
 
 ## Union Find
 * Quick Find [Java](problems/union-find/QuickFind.java)
