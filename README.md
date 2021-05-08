@@ -111,6 +111,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 ## Binary Tree
 * Binary tree
     * Recursive Preorder, inorder, postorder, height, diameter [C++](problems/binary-tree/BasicTree.cpp)
+* Construct balanced binary tree [C++](problems/binary-tree/ConstructBalancedTree.cpp)
 * Find longest increasing path in binary tree [C++](problems/binary-tree/LongestPathInBinaryTree.cpp)
 * Find longest increasing path in n-ary tree [C++](problems/binary-tree/LongestPathInNaryTree.cpp)
 
