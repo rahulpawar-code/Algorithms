@@ -115,6 +115,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Find longest increasing path in binary tree [C++](problems/binary-tree/LongestPathInBinaryTree.cpp)
 * Find longest increasing path in n-ary tree [C++](problems/binary-tree/LongestPathInNaryTree.cpp)
 * Find next right node in binary tree [C++](problems/binary-tree/NextRightNode.cpp)
+* Count all possible distinct sums paths top-down in a binary tree. [C++](problems/binary-tree/CountDistinctPathSums.cpp)
 
 ## Symbol table and Search Trees
 * Binary Search Tree
