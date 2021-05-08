@@ -114,6 +114,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Find longest increasing path in binary tree [C++](problems/binary-tree/LongestPathInBinaryTree.cpp)
 * Find longest increasing path in n-ary tree [C++](problems/binary-tree/LongestPathInNaryTree.cpp)
 
+
 ## Symbol table and Search Trees
 * Binary Search Tree
     * [Java](problems/symbol-table/BST.java)
@@ -160,6 +161,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Continuous ones [Java](problems/array/ContinuousOnes.java)
 * Infections over a distance [Java](problems/array/Contamination.java)
 * 8 Puzzle [Java](problems/array/8-puzzle/)
+* Maximum sum rectangle in a 2D matrix [C++](problems/array/MaximumSumRectangleInMatrix.cpp)
 
 ## Sorting
 * Insertion sort (generic)  [Java](problems/sorting/Insertion.java) [C++](problems/sorting/InsertionSort.java)
