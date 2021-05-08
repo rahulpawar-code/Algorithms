@@ -156,12 +156,10 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
 * Trie data structure. [Java](problems/trie/Trie.java)
 
-## Arrays
+## Arrays, 2D arrays, matrices
 * Continuous ones [Java](problems/array/ContinuousOnes.java)
 * Infections over a distance [Java](problems/array/Contamination.java)
-
-## Matrices
-* 8 Puzzle [Java](problems/matrices/8-puzzle/)
+* 8 Puzzle [Java](problems/array/8-puzzle/)
 
 ## Sorting
 * Insertion sort (generic)  [Java](problems/sorting/Insertion.java) [C++](problems/sorting/InsertionSort.java)
