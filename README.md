@@ -154,6 +154,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Using trie, recursive algorithm [Java](problems/string/WordBreak.java)
 * KMP Pattern searching
     * Search pattern in text [Java](problems/string/KMP.java)
+* Remove characters from a first string which are present in other string [C](problems/string/RemoveCharacters.c) &nbsp; [C++](problems/string/RemoveCharacters.cpp) 
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
