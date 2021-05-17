@@ -155,6 +155,12 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * KMP Pattern searching
     * Search pattern in text [Java](problems/string/KMP.java)
 * Remove characters from a first string which are present in other string [C](problems/string/RemoveCharacters.c) &nbsp; [C++](problems/string/RemoveCharacters.cpp)
+<<<<<<< HEAD
+=======
+* Interleaved string
+    * Print interleaved string of 2 strings [C++](problems/string/InterleavingStrings.cpp)
+    * Find if a string is interleaved of two other strings [C++](problems/string/PrintInterleavingOfString.cpp)
+>>>>>>> Add disjoint set and interleaved string
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
