@@ -154,7 +154,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * Using trie, recursive algorithm [Java](problems/string/WordBreak.java)
 * KMP Pattern searching
     * Search pattern in text [Java](problems/string/KMP.java)
-* Remove characters from a first string which are present in other string [C](problems/string/RemoveCharacters.c) &nbsp; [C++](problems/string/RemoveCharacters.cpp) 
+* Remove characters from a first string which are present in other string [C](problems/string/RemoveCharacters.c) &nbsp; [C++](problems/string/RemoveCharacters.cpp)
 
 ## Trie
 * Spell checker. [C++](problems/trie/SpellChecker.cpp)
@@ -259,7 +259,7 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/CountDecodedDigitSequence.cpp)
 * Print all possible decoding of given digit sequence. [C++](problems/encoding-decoding/PrintDecodedDigitSequence.cpp)
 
-## Other
+## Other data structures/ Implement some data structure
 * Find the celebrity in room. [C++](problems/others/CelebrityProblem2.cpp)
 * Maximum possible length by cutting N wood pieces into K pieces. [C++](problems/others/MaxLengthForCutting.cpp)
 * Merge N trasactions preserve order. [C++](problems/others/MergeTransactions.cpp)
@@ -269,6 +269,11 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
     * using hashmap [C++](problems/others/MajorityElement.cpp)
     * Boyer-Moore voting algorithm [wiki article](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm) [C++](problems/others/MajorityElement.cpp)
 * CPU task scheduling [C++](https://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_majority_vote_algorithm)
+* Activity/Task : representation of an activity or a task [Java](problems/greedy/Activity.java)
+* Randomized set [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/112/design/813/) [C++](problems/others/RandomizedSet.cpp)
+* Disjoint set
+    * Naive implementation [C++](problems/others/DisjointSet.cpp)
+    * Path compression, union by rank [C++](problems/others/DisjointSet.cpp)
 
 ## Bit manipulation/ Bitwise hacks
 * Basics [Java](problems/bitwise/bitwise1.cpp)
@@ -284,10 +289,6 @@ Princeton Algorithms [Part 1](https://www.coursera.org/learn/algorithms-part1/) 
 ## Random data generation
 * Random String : generate random string [Java](problems/dynamic-programming/RandomString.java)
 * Random 2D Matrix : generate random 2D boolean, binary or integer matrix [Java](problems/dynamic-programming/Random2DMatrix.java)
-
-## Other data structures/ Implement some data structure
-* Activity/Task : representation of an activity or a task [Java](problems/greedy/Activity.java)
-* Randomized set [Problem](https://leetcode.com/explore/interview/card/top-interview-questions-medium/112/design/813/) [C++](problems/others/RandomizedSet.cpp)
 
 ## Leetcode
 ### Array
